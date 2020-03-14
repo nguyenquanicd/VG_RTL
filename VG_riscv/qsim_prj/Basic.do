@@ -1,5 +1,52 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/clk
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/rstn
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/if_nxt_pc
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/if_stall
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/branch_pc
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/branch_taken
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/if_pc
+add wave -noupdate -expand -group General -expand -group IF_s /testbench_top/dut/core/if_unit/if_instr
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_src1
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_src2
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_opA
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_opB
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/immI
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/immU
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/if_opcode
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_opcode
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/ex_opcode
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/mem_opcode
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/wb_opcode
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/id_dst
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/ex_dst
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/mem_dst
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/wb_dst
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/can_bypex
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/can_bypmem
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/can_ldwb
+add wave -noupdate -expand -group General -expand -group ID_s /testbench_top/dut/core/id_unit/can_bypwb
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/id_opA
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/id_opB
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/ex_r
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/wb_r
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/opA
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/opB
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/alu_r
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/lsu_r
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/mul_r
+add wave -noupdate -expand -group General -expand -group EX_s /testbench_top/dut/core/ex_units/div_r
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/mem_pc
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/mem_bubble
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/mem_instr
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/dmem_adr
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/mem_r
+add wave -noupdate -expand -group General -expand -group MEM_s /testbench_top/dut/core/mem_unit/mem_memadr
+add wave -noupdate -expand -group General -expand -group WB_s /testbench_top/dut/core/wb_unit/wb_stall_o
+add wave -noupdate -expand -group General -expand -group WB_s /testbench_top/dut/core/wb_unit/wb_dst_o
+add wave -noupdate -expand -group General -expand -group WB_s /testbench_top/dut/core/wb_unit/wb_r_o
+add wave -noupdate -expand -group General -expand -group WB_s /testbench_top/dut/core/wb_unit/wb_we_o
 add wave -noupdate -group DUT /testbench_top/dut/HRESETn
 add wave -noupdate -group DUT /testbench_top/dut/HCLK
 add wave -noupdate -group DUT /testbench_top/dut/pma_cfg_i
@@ -259,93 +306,93 @@ add wave -noupdate -group CPU_IF /testbench_top/dut/core/if_unit/branch_pc
 add wave -noupdate -group CPU_IF /testbench_top/dut/core/if_unit/branch_taken
 add wave -noupdate -group CPU_IF /testbench_top/dut/core/if_unit/immB
 add wave -noupdate -group CPU_IF /testbench_top/dut/core/if_unit/immJ
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/rstn
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/clk
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_stall
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_stall
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/du_stall
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/bu_flush
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_flush
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/du_flush
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/bu_nxt_pc
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_nxt_pc
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_pc
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_pc
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_bp_predict
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bp_predict
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_bubble
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bubble
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_bubble
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_bubble
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_bubble
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_exception
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_exception
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_exception
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_exception
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_exception
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_prv
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_xlen
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_tvm
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_tw
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_tsr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_mcounteren
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/st_scounteren
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_src1
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_src2
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_opA
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_opB
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_userf_opA
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_userf_opB
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypex_opA
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypex_opB
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypmem_opA
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypmem_opB
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypwb_opA
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bypwb_opB
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_r
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_r
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_bubble_r
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/multi_cycle_instruction
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/stall
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/immI
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/immU
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_opcode
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_opcode
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_opcode
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_opcode
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_opcode
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_func3
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_func7
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/xlen
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/xlen64
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/xlen32
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_fpu
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_muldiv
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_amo
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_u
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_s
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/has_h
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_src1
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/if_src2
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/id_dst
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/ex_dst
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/mem_dst
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/wb_dst
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/can_bypex
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/can_bypmem
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/can_bypwb
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/can_ldwb
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_alu_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_lsu_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_muldiv_instr
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_csr_rd
-add wave -noupdate -expand -group CPU_ID /testbench_top/dut/core/id_unit/illegal_csr_wr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_csr_wr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_csr_rd
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_muldiv_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_lsu_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_alu_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/illegal_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/can_ldwb
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/can_bypwb
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/can_bypmem
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/can_bypex
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_dst
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_dst
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_dst
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_dst
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_src2
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_src1
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_h
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_s
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_u
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_amo
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_muldiv
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/has_fpu
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/xlen32
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/xlen64
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/xlen
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_func7
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_func3
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_opcode
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_opcode
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_opcode
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_opcode
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_opcode
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/immU
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/immI
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/stall
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/multi_cycle_instruction
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bubble_r
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_r
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_r
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypwb_opB
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypwb_opA
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypmem_opB
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypmem_opA
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypex_opB
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bypex_opA
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_userf_opB
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_userf_opA
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_opB
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_opA
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_src2
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_src1
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_scounteren
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_mcounteren
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_tsr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_tw
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_tvm
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_xlen
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_prv
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_exception
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_exception
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_exception
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_exception
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_exception
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_bubble
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/wb_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_bubble
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/mem_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_bubble
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bubble
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_bubble
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_instr
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_bp_predict
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_bp_predict
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_pc
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/if_pc
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_nxt_pc
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/bu_nxt_pc
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/du_flush
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/st_flush
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/bu_flush
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/du_stall
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/ex_stall
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/id_stall
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/clk
+add wave -noupdate -group CPU_ID /testbench_top/dut/core/id_unit/rstn
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/rstn
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/clk
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/wb_stall
@@ -376,13 +423,9 @@ add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_bypmem_opA
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_bypmem_opB
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_bypwb_opA
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_bypwb_opB
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_opA
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_opB
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/rf_srcv1
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/rf_srcv2
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/ex_r
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/mem_r
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/wb_r
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/ex_csr_reg
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/ex_csr_wval
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/ex_csr_we
@@ -405,12 +448,6 @@ add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/du_flush
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/du_we_pc
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/du_dato
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/du_ie
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/opA
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/opB
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/alu_r
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/lsu_r
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/mul_r
-add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/div_r
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/alu_bubble
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/lsu_bubble
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/mul_bubble
@@ -420,6 +457,16 @@ add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/mul_stall
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/div_stall
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/bu_exception
 add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/lsu_exception
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_opA
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/id_opB
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/ex_r
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/wb_r
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/opA
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/opB
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/alu_r
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/lsu_r
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/mul_r
+add wave -noupdate -group CPU_EX /testbench_top/dut/core/ex_units/div_r
 add wave -noupdate -group CPU_MEM /testbench_top/dut/core/mem_unit/rstn
 add wave -noupdate -group CPU_MEM /testbench_top/dut/core/mem_unit/clk
 add wave -noupdate -group CPU_MEM /testbench_top/dut/core/mem_unit/wb_stall
@@ -539,25 +586,25 @@ add wave -noupdate -group CPU_STATE /testbench_top/dut/core/cpu_state/interrupt_
 add wave -noupdate -group CPU_STATE /testbench_top/dut/core/cpu_state/trap_cause
 add wave -noupdate -group CPU_STATE /testbench_top/dut/core/cpu_state/csr_raddr
 add wave -noupdate -group CPU_STATE /testbench_top/dut/core/cpu_state/csr_wval
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rstn
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/clk
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_src1
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_src2
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_srcv1
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_srcv2
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_we
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_dst
-add wave -noupdate -expand -group REGs -expand /testbench_top/dut/core/int_rf/rf
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/rf_dstv
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/du_stall
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/du_we_rf
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/du_dato
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/du_dati_rf
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/du_addr
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/src1_is_x0
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/src2_is_x0
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/dout1
-add wave -noupdate -expand -group REGs /testbench_top/dut/core/int_rf/dout2
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rstn
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/clk
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_src1
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_src2
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_srcv1
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_srcv2
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_we
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_dst
+add wave -noupdate -group REGs -expand /testbench_top/dut/core/int_rf/rf
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/rf_dstv
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/du_stall
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/du_we_rf
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/du_dato
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/du_dati_rf
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/du_addr
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/src1_is_x0
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/src2_is_x0
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/dout1
+add wave -noupdate -group REGs /testbench_top/dut/core/int_rf/dout2
 add wave -noupdate -group CPU_DU /testbench_top/dut/core/du_unit/rstn
 add wave -noupdate -group CPU_DU /testbench_top/dut/core/du_unit/clk
 add wave -noupdate -group CPU_DU /testbench_top/dut/core/du_unit/dbg_stall
@@ -854,7 +901,7 @@ add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/cpu_dat_i
 add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/cpu_ack_i
 add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/stall_cpu
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {738 ns} 0}
+WaveRestoreCursors {{Cursor 1} {845 ns} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 202
 configure wave -valuecolwidth 100
@@ -870,4 +917,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {619 ns} {901 ns}
+WaveRestoreZoom {0 ns} {6505 ns}

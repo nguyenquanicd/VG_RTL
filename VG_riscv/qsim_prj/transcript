@@ -9,7 +9,7 @@
 # //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
 # //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 # //
-# OpenFile E:/GIT/VG_Specification/src/riscv/qsim_prj/riscv-rv12.mpf 
+# OpenFile ../qsim_prj/riscv-rv12.mpf 
 # Loading project riscv-rv12
 # Compile of riscv_if.sv was successful.
 # Compile of riscv_mem.sv was successful.
@@ -65,25 +65,25 @@ vsim -voptargs=+acc work.testbench_top
 # vsim -voptargs=+acc work.testbench_top 
 # ** Note: (vsim-3812) Design is being optimized...
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2685) [TFMPC] - Too few port connections for 'dext_inst'.  Expected 29, found 27.
+# ** Warning: ../rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2685) [TFMPC] - Too few port connections for 'dext_inst'.  Expected 29, found 27.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'biu_adro_i'.
+# ** Warning: ../rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'biu_adro_i'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'mem_adr_o'.
+# ** Warning: ../rtl/verilog/core/memory/riscv_imem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'mem_adr_o'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2685) [TFMPC] - Too few port connections for 'dext_inst'.  Expected 29, found 27.
+# ** Warning: ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2685) [TFMPC] - Too few port connections for 'dext_inst'.  Expected 29, found 27.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'biu_adro_i'.
+# ** Warning: ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'biu_adro_i'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'mem_adr_o'.
+# ** Warning: ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv(516): (vopt-2718) [TFMPC] - Missing connection for port 'mem_adr_o'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2685) [TFMPC] - Too few port connections for 'mmio_if_inst'.  Expected 11, found 8.
+# ** Warning: ../bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2685) [TFMPC] - Too few port connections for 'mmio_if_inst'.  Expected 11, found 8.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HRESP'.
+# ** Warning: ../bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HRESP'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HREADYOUT'.
+# ** Warning: ../bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HREADYOUT'.
 # 
-# ** Warning: E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HRDATA'.
+# ** Warning: ../bench/verilog/ahb3lite/testbench_top.sv(346): (vopt-2718) [TFMPC] - Missing connection for port 'HRDATA'.
 # 
 # Loading sv_std.std
 # Loading work.ahb3lite_pkg(fast)
@@ -150,29 +150,26 @@ vsim -voptargs=+acc work.testbench_top
 # Loading work.biu_ahb3lite(fast)
 # Loading work.dbg_bfm(fast)
 # Loading work.memory_model_ahb3lite(fast)
-# ** Warning: (vsim-3017) E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Too few port connections. Expected 11, found 8.
+# ** Warning: (vsim-3017) ../bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Too few port connections. Expected 11, found 8.
 # 
 #         Region: /testbench_top/genblk1/mmio_if_inst
-# ** Warning: (vsim-3722) E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HRDATA'.
+# ** Warning: (vsim-3722) ../bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HRDATA'.
 # 
-# ** Warning: (vsim-3722) E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HREADYOUT'.
+# ** Warning: (vsim-3722) ../bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HREADYOUT'.
 # 
-# ** Warning: (vsim-3722) E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HRESP'.
+# ** Warning: (vsim-3722) ../bench/verilog/ahb3lite/testbench_top.sv(346): [TFMPC] - Missing connection for port 'HRESP'.
 # 
-do E:/GIT/VG_Specification/src/riscv/qsim_prj/Basic.do
-do E:/GIT/VG_Specification/src/riscv/qsim_prj/Basic.do
-do E:/GIT/VG_Specification/src/riscv/qsim_prj/Basic.do
-do E:/GIT/VG_Specification/src/riscv/qsim_prj/Basic.do
+do ../qsim_prj/Basic.do
 run -all
 # INFO   : No memory technology specified. Using generic inferred memory (testbench_top.dut.core.genblk1.bp_unit.bp_ram_inst.genblk1)
 # ** Error: Illegal biu_size_t
-#    Time: 0 ns  Scope: testbench_top.dut.imem_ctrl_inst.pmachk_inst.size2bytes File: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_pmachk.sv Line: 83
+#    Time: 0 ns  Scope: testbench_top.dut.imem_ctrl_inst.pmachk_inst.size2bytes File: ../rtl/verilog/core/memory/riscv_pmachk.sv Line: 83
 # ** Error: Illegal biu_size_t
-#    Time: 0 ns  Scope: testbench_top.dut.imem_ctrl_inst.pmpchk_inst.size2bytes File: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_pmpchk.sv Line: 73
+#    Time: 0 ns  Scope: testbench_top.dut.imem_ctrl_inst.pmpchk_inst.size2bytes File: ../rtl/verilog/core/memory/riscv_pmpchk.sv Line: 73
 # ** Error: Illegal biu_size_t
-#    Time: 0 ns  Scope: testbench_top.dut.dmem_ctrl_inst.pmachk_inst.size2bytes File: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_pmachk.sv Line: 83
+#    Time: 0 ns  Scope: testbench_top.dut.dmem_ctrl_inst.pmachk_inst.size2bytes File: ../rtl/verilog/core/memory/riscv_pmachk.sv Line: 83
 # ** Error: Illegal biu_size_t
-#    Time: 0 ns  Scope: testbench_top.dut.dmem_ctrl_inst.pmpchk_inst.size2bytes File: E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/riscv_pmpchk.sv Line: 73
+#    Time: 0 ns  Scope: testbench_top.dut.dmem_ctrl_inst.pmpchk_inst.size2bytes File: ../rtl/verilog/core/memory/riscv_pmpchk.sv Line: 73
 # 
 # 
 # 
@@ -184,7 +181,7 @@ run -all
 #  `--' '--' `---'  `--`--'    `-----' `---' `-   /`--' `---' 
 # - RISC-V Regression Testbench -----------  `---'  ----------
 #   XLEN | PRIV | MMU | FPU | RVA | RVM | MULLAT | CORES  
-# ** Error: (vsim-PLI-3485) tf_getp(): Unsupported type conversion. Use tf_strgetp().    : E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv(368)
+# ** Error: (vsim-PLI-3485) tf_getp(): Unsupported type conversion. Use tf_strgetp().    : ../bench/verilog/ahb3lite/testbench_top.sv(368)
 #    Time: 0 ns  Iteration: 0  Instance: /testbench_top
 #     32 |  SU |   0 |   0 |   0 |   0 |      0 |   1   
 # -------------------------------------------------------------
@@ -2092,25 +2089,25 @@ run -all
 # ERROR  : Read error while processing test.hex
 # ERROR  : Read error while processing test.hex
 # ERROR  : Read error while processing test.hex
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
-# ** Warning: (vsim-8315) E:/GIT/VG_Specification/src/riscv/rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
+# ** Warning: (vsim-8315) ../rtl/verilog/core/memory/biu_mux.sv(169): No condition is true in the unique/priority if/case statement.
 # 
 # exception
 # 
@@ -2122,4 +2119,4 @@ run -all
 # -------------------------------------------------------------
 # 
 # 
-# Break in Module mmio_if at E:/GIT/VG_Specification/src/riscv/bench/verilog/ahb3lite/testbench_top.sv line 556
+# Break in Module mmio_if at ../bench/verilog/ahb3lite/testbench_top.sv line 556
