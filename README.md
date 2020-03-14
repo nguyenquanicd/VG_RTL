@@ -1,2 +1,2 @@
 # VG_RTL
-All RTL codes of VG project
+All RTL codes of VG project: riscv
