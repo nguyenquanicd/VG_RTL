@@ -103,8 +103,8 @@ module riscv_du #(
   //
 
   typedef struct packed {
-    logic       branch_break_ena; //each branch causes a switch to the debug environment
-    logic       instr_break_ena;  //each executed instruction causes a switch to the debug environment (=single step)
+    logic       branch_break_ena; //each branch causes a switch to the debug environment, bte
+    logic       instr_break_ena;  //each executed instruction causes a switch to the debug environment (=single step), sste
   } dbg_ctrl_struct;
 
   typedef struct packed {

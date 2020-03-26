@@ -1,0 +1,3435 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_en_GB.xphp
+Subject: Training RISC-V CPU: This course covers and explains the implementation of the RISC-V CPU on FPGA platforms - Programming: Logique Programmable - ac6-training
+Date: Tue, 24 Mar 2020 23:11:14 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----"
+
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/html
+Content-ID: <frame-0B4DB0764FCCF8E92722942758D4C813@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_en_GB.xphp
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.=
+w3.org/TR/html4/loose.dtd"><html><head><meta http-equiv=3D"Content-Type" co=
+ntent=3D"text/html; charset=3DUTF-8"><link rel=3D"stylesheet" type=3D"text/=
+css" href=3D"cid:css-18b0ce71-b023-4280-bebb-9560385b22ce@mhtml.blink" /><l=
+ink rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c8c45a03-c00a-4809=
+-b256-f37852dc1fc6@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css=
+" href=3D"cid:css-ea26f017-c032-469d-b2c5-abb9c7240c83@mhtml.blink" /><link=
+ rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-16ce057e-3132-45bf-8b=
+6b-60ae2c4bd3c7@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" h=
+ref=3D"cid:css-9c08eb02-6cd6-471e-a721-939f239e5068@mhtml.blink" /><link re=
+l=3D"stylesheet" type=3D"text/css" href=3D"cid:css-c2ead824-db3c-4be5-80fb-=
+c83dc2cbfb78@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b6a964a8-c005-4b27-97db-c0c69470bb96@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-1f746ee8-2fbf-490f-b851-d=
+78a4e2539b0@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-f79908b0-4a88-4b2e-a471-31dd2272eb0b@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-4108d7c5-185f-4dbb-b715-2=
+78775ba800f@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-c43b96e0-e68d-4c6c-8e2a-9244705fec0f@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-bc74ef15-9a82-4c6e-bba3-3=
+6401599d95e@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" href=
+=3D"cid:css-b8eea604-1a1a-4c72-99eb-f6bc5d499c13@mhtml.blink" />
+
+<meta http-equiv=3D"Content-Language" content=3D"en-GB">
+<meta name=3D"Description" content=3D"La r=C3=A9alisation de syst=C3=A8mes =
+embarqu=C3=A9s combine de plus en plus de l'=C3=A9lectronique programmable =
+et du logiciel. Ces deux composantes du syst=C3=A8me contribuent de fa=C3=
+=A7on critique au bon fonctionnement du syst=C3=A8me et doivent =C3=AAtre c=
+on=C3=A7ues et ma=C3=AEtris=C3=A9es non seulement s=C3=A9par=C3=A9ment mais=
+ =C3=A9galement dans leurs interactions.=20
+
+ac6-formation propose des formations pratiques pour vous permettre de ma=C3=
+=AEtriser la mise en oeuvre de composants de logique programmable et leur i=
+nteractions avec la composante logicielle de vos syst=C3=A8mes.">
+<meta name=3D"Subject" content=3D"La r=C3=A9alisation de syst=C3=A8mes emba=
+rqu=C3=A9s combine de plus en plus de l'=C3=A9lectronique programmable et d=
+u logiciel. Ces deux composantes du syst=C3=A8me contribuent de fa=C3=A7on =
+critique au bon fonctionnement du syst=C3=A8me et doivent =C3=AAtre con=C3=
+=A7ues et ma=C3=AEtris=C3=A9es non seulement s=C3=A9par=C3=A9ment mais =C3=
+=A9galement dans leurs interactions.=20
+
+ac6-formation propose des formations pratiques pour vous permettre de ma=C3=
+=AEtriser la mise en oeuvre de composants de logique programmable et leur i=
+nteractions avec la composante logicielle de vos syst=C3=A8mes.">
+<meta name=3D"Keywords" content=3D"VHDL, Verilog, ModelSim, Synplicity, isp=
+LEVER, Lattice Semiconductor, Xilinx, Actel, Altera, Mentor Graphics, Aldec=
+, Active-HDL, Synopsys centre de formation, embarqu=C3=A9, micro windows, F=
+PGA, Qtopia, Freescale, Qutopia, Microprocess, PCIexpress, informatique emb=
+arqu=C3=A9e, temps r=C3=A9el, ARM11, IBM Power, embedded, realtime, Marvell=
+, ARM9, Actel, USB2, Actel, gestion de projets, ST231, Motorola, RapidIO, M=
+arvell switch, m=C3=A9thodologie objet, UML, DOC2000, nano X, USB-3.0, Latt=
+ice, formations, microprocesseurs, flash, bus, langages, methode, IBM, DOC,=
+ Xscale, ARM, PowerPC, wxWindows, FreeScale, PCIe, USB-2.0, ST20, SH4, QT E=
+mbedded, x86, MIPS, gestion de d=C3=A9veloppement, Ethernet, Linux, QTEmbed=
+ded, Xenomai, peeweelinux, montavista, lynxos, bluecat, Lynuxworks, TimeSys=
+, ST40, Sysgo, Denx, KLinux, Koan, Cortex/M1,Windows, RTAI, Microsoft, kern=
+el, noyau, syst=C3=A8mes embarqu=C3=A9s, nanoX, microwindows, ST200, wxEmbe=
+dded, Xilinx, USB3, TCP/IP, QT, gestion de configuration, ARM7, peewee, fpg=
+a, IPV6, ICL, MCI, QTE, Cortex/A9embarqu=C3=A9, noyau, real time, Lattice, =
+FreeScale, informatique embarqu=C3=A9e, temps r=C3=A9el, ARM11, embedded, M=
+arvell, realtime, Actel, AMCC, ST231, Motorola, m=C3=A9thodologie objet, UM=
+L, microprocesseurs, flash, bus, langages, methode, Xscale, ARM, PowerPC, M=
+icroprocess, kernel, ST20, SH4, x86, MIPS, Atmel, ST40, ARM9, Xilinx, Frees=
+cale, syst=C3=A8mes embarqu=C3=A9s, ST200, gestion de configuration, ARM7, =
+Cortex/A15, Cortex/A53, Cortex/A57, Cortex/M0, Cortex/M1, Cortex/M3, Cortex=
+/M4, outils Windriver, Microprocess, TimeSys, FreeScale, Xilinx, Ardence, A=
+pogee, IBM, ARM, Marvell, Altera, Embelec, outils Wind River, Denx, Lattice=
+, Actel, AMCC">
+<meta name=3D"Author" content=3D"Bernard Dautrevaux">
+<meta name=3D"Publisher" content=3D"Bernard Dautrevaux">
+<meta name=3D"Reply-To" content=3D"info@ac6-training.com">
+<meta name=3D"Copyright" content=3D"Bernard Dautrevaux">
+<meta name=3D"Identifier-URL" content=3D"https://www.ac6-training.com/">
+<meta name=3D"Revisit-after" content=3D"15 days">
+<meta name=3D"Classification" content=3D"Formation informatique, formations=
+ intra-entreprise, formations inter-entrepriseFormation informatique, forma=
+tions intra-entreprise, formations inter-entreprise">
+<meta name=3D"Location" content=3D"FRANCE, Courbevoie">
+<meta name=3D"Robots" content=3D"INDEX, ALL, FOLLOW">
+<meta name=3D"Crawlers" content=3D"INDEX, ALL, FOLLOW">
+<meta name=3D"WebCrawlers" content=3D"INDEX, ALL, FOLLOW">
+<meta name=3D"Owner" content=3D"Ac6 SARL">
+<meta name=3D"Rating" content=3D"General">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<meta name=3D"Generator" content=3D"B.Dautrevaux PHP Web Generator">
+<link rel=3D"shortcut icon" href=3D"https://www.ac6-training.com/icones/Ac6=
+-hat.ICO">
+<title>Training RISC-V CPU: This course covers and explains the implementat=
+ion of the RISC-V CPU on FPGA platforms - Programming: Logique Programmable=
+ - ac6-training</title>
+
+
+</head>
+<body>
+<div id=3D"overDiv" style=3D"position: absolute; visibility: hidden; z-inde=
+x: 1000; left: -10000px; top: -10000px;"><!-- Overlib DIV layer ---></div>
+
+<div class=3D"page_header" width=3D"1004px" align=3D"center">
+
+
+
+
+
+
+<table class=3D"nowidth_hdr" cellspacing=3D"0" cellpadding=3D"0">
+<tbody><tr>
+<td width=3D"20px">&nbsp;</td>
+<td>
+<table class=3D"user_welcome" width=3D"950px">
+<tbody><tr>
+<td align=3D"left" valign=3D"middle"><div class=3D"login_pane"><form enctyp=
+e=3D"application/x-www-form-urlencoded" method=3D"post" action=3D"https://w=
+ww.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_en_GB.xphp" name=3D"log=
+in" id=3D"login_1">
+
+
+<span valign=3D"middle" id=3D"login_2_data">
+<table align=3D"right" id=3D"login_2">
+<tbody align=3D"right" id=3D"login_2_body">
+<tr>
+<td valign=3D"middle" align=3D"right" id=3D"pseudo_1_label">
+<label for=3D"pseudo_1">
+Pseudo
+:
+</label>
+</td>
+<td valign=3D"middle" id=3D"pseudo_1_data">
+<input size=3D"8" type=3D"text" maxlength=3D"32" name=3D"pseudo" tabindex=
+=3D"1" id=3D"pseudo_1">
+</td>
+<td valign=3D"middle" align=3D"right" id=3D"password_1_label">
+<label for=3D"password_1">
+Password
+:
+</label>
+</td>
+<td valign=3D"middle" id=3D"password_1_data">
+<input size=3D"8" type=3D"password" maxlength=3D"16" tabindex=3D"2" name=3D=
+"password" id=3D"password_1">
+</td>
+<td valign=3D"middle" align=3D"center" id=3D"Submit_1_data">
+<button type=3D"submit" tabindex=3D"3" name=3D"Submit" value=3D"submit" id=
+=3D"Submit_1">
+Connect
+</button>
+</td>
+<td valign=3D"middle" colspan=3D"2" id=3D"login_3_data">
+<a href=3D"https://www.ac6.fr/register.php" target=3D"_blank" name=3D"login=
+_0_3" id=3D"login_3">
+New user
+</a>
+</td>
+</tr>
+</tbody>
+</table>
+</span>
+
+</form>
+</div></td>
+<td width=3D"*">&nbsp;</td>
+<td align=3D"right" valign=3D"middle"><div class=3D"lang_pane"><a href=3D"h=
+ttps://www.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_fr_FR.xphp"><im=
+g src=3D"https://www.ac6-training.com/images/PNG/FR_flag.png" width=3D"14.8=
+5" height=3D"9.9" alt=3D"View the site in French" data-pagespeed-url-hash=
+=3D"3685749692"></a><a href=3D"https://www.ac6-training.com/cours.php/cat_F=
+PGA/ref_RV1/lang_en_US.xphp"><img src=3D"https://www.ac6-training.com/image=
+s/PNG/USA_flag.png" width=3D"19.14" height=3D"9.9" alt=3D"Voir le site en E=
+nglish (USA)" data-pagespeed-url-hash=3D"2398498193"></a><img src=3D"https:=
+//www.ac6-training.com/images/PNG/UK_flag.png" width=3D"19.8" height=3D"9.9=
+" alt=3D"Site displayed in English (GB)" class=3D"active" data-pagespeed-ur=
+l-hash=3D"390491886">
+</div></td>
+</tr>
+</tbody></table>
+</td>
+<td width=3D"20px">&nbsp;</td>
+</tr>
+</tbody></table>
+<table id=3D"page_title" width=3D"1004px" height=3D"150px" align=3D"center"=
+ valign=3D"bottom">
+<tbody><tr>
+<td id=3D"header_logo" width=3D"220px">
+<a href=3D"https://www.ac6-training.com/"><img src=3D"https://www.ac6-train=
+ing.com/images/PNG/logo_ac6-training.png" width=3D"116" height=3D"77" alt=
+=3D"ac6-training, un d=C3=83=C2=A9partement d'Ac6 SARL" data-pagespeed-url-=
+hash=3D"2839666384">
+</a>
+</td>
+<td id=3D"header_title" width=3D"750px">
+<span>This course covers and explains the implementation of the RISC-V CPU =
+on FPGA platforms</span>
+</td>
+<td width=3D"*">&nbsp;</td>
+</tr>
+</tbody></table>
+</div>
+<div class=3D"page_content">
+
+
+
+
+
+<div align=3D"center">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<span valign=3D"middle" id=3D"course_families_1_data">
+<span id=3D"course_families_1">
+<span valign=3D"middle" id=3D"course_families_2_data">
+<table id=3D"course_families_2">
+<tbody id=3D"course_families_2_body">
+<tr>
+<td class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_3_data"=
+ colspan=3D"2">
+<table class=3D"NoWidthBox" width=3D"100%" id=3D"course_families_3">
+<tbody class=3D"NoWidthBox" width=3D"100%" id=3D"course_families_3_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_more_1_=
+row" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_more_1_data">
+<span id=3D"course_families_more_1">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_more_2_data"=
+>
+<a name=3D"course_families_more_0" id=3D"course_families_more_2" style=3D"d=
+isplay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/circl=
+edplus-20-6ca3b4.png" width=3D"21" height=3D"21" alt=3D"+" data-pagespeed-u=
+rl-hash=3D"662406971">
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_more_3_data"=
+>
+<a name=3D"course_families_more_1" id=3D"course_families_more_3"><img src=
+=3D"https://www.ac6-training.com/generated/PNG/plus-20-A0A0A0.png" width=3D=
+"21" height=3D"21" alt=3D"+" data-pagespeed-url-hash=3D"233045309">
+</a>
+</span>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_down_1_=
+row" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_down_1_data">
+<span id=3D"course_families_down_1">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_down_2_data"=
+>
+<a name=3D"course_families_down_0" id=3D"course_families_down_2" style=3D"d=
+isplay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/leftt=
+riangle-40-6ca3b4.png" width=3D"21" height=3D"41" alt=3D"" data-pagespeed-u=
+rl-hash=3D"1570607568">
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_down_3_data"=
+>
+<a name=3D"course_families_down_1" id=3D"course_families_down_3"><img src=
+=3D"https://www.ac6-training.com/generated/PNG/lefttriangle-40-A0A0A0.png" =
+width=3D"21" height=3D"41" alt=3D"" data-pagespeed-url-hash=3D"3159439868">
+</a>
+</span>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_less_1_=
+row" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_less_1_data">
+<span id=3D"course_families_less_1">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_less_2_data"=
+>
+<a name=3D"course_families_less_0" id=3D"course_families_less_2"><img src=
+=3D"https://www.ac6-training.com/generated/PNG/circledminus-20-6ca3b4.png" =
+width=3D"21" height=3D"21" alt=3D"-" data-pagespeed-url-hash=3D"2978456091"=
+>
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_less_3_data"=
+>
+<a name=3D"course_families_less_1" id=3D"course_families_less_3" style=3D"d=
+isplay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/minus=
+-20-A0A0A0.png" width=3D"21" height=3D"21" alt=3D"-" data-pagespeed-url-has=
+h=3D"2176884425">
+</a>
+</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+
+<td class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_4_data" co=
+lspan=3D"2" style=3D"overflow: hidden; min-width: 228px; min-height: 220px;=
+ padding: 4px; max-height: 220px; max-width: 228px;" width=3D"228px" height=
+=3D"220px">
+<table class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_4">
+<tbody class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_4_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"OS_1_row" colspan=3D"2">
+<td valign=3D"top" colspan=3D"2" id=3D"OS_1_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/group.php?group=3DOS=
+" name=3D"OS" id=3D"OS_1">
+Operating&nbsp;Systems
+</a>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_5_row" col=
+span=3D"2">
+<td valign=3D"middle" id=3D"course_families_5_data">
+<ul id=3D"course_families_5">
+<li valign=3D"top" id=3D"course_families_6_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+SW4L" name=3D"course_families_0_1_1_0" id=3D"course_families_6">
+System&nbsp;Workbench
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_7_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+ANDROID" name=3D"course_families_0_1_1_1" id=3D"course_families_7">
+Android
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_8_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+LINUX" name=3D"course_families_0_1_1_2" id=3D"course_families_8">
+Linux
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_9_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+RTOS" name=3D"course_families_0_1_1_3" id=3D"course_families_9">
+RTOS
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_10_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+WIN" name=3D"course_families_0_1_1_4" id=3D"course_families_10">
+Windows
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_11_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+DRIVER" name=3D"course_families_0_1_1_5" id=3D"course_families_11">
+Drivers
+</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"bottom" id=3D"course_families_12_row"=
+ colspan=3D"2" height=3D"*">
+<td valign=3D"bottom" colspan=3D"2" align=3D"right" id=3D"course_families_1=
+2_data">
+<span valign=3D"bottom" name=3D"course_families_0_1_2" id=3D"course_familie=
+s_12">
+<a href=3D"https://www.ac6-training.com/calendrier.php?group=3DOS" class=3D=
+"carrousel_calendar">Calendar</a>&nbsp;&nbsp;<a href=3D"https://www.ac6-tra=
+ining.com/group.php?group=3DOS" class=3D"carrousel_seeall">Details</a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+
+<td class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_13_data" c=
+olspan=3D"2" width=3D"228px" height=3D"220px" style=3D"overflow: hidden; mi=
+n-width: 228px; min-height: 220px; padding: 4px; max-height: 220px; max-wid=
+th: 228px;">
+<table class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_13">
+<tbody class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_13_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"PROG_1_row" colspan=3D"2">
+<td valign=3D"top" colspan=3D"2" id=3D"PROG_1_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/group.php?group=3DPR=
+OG" name=3D"PROG" id=3D"PROG_1">
+Programming
+</a>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_14_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_14_data">
+<ul id=3D"course_families_14">
+<li valign=3D"top" id=3D"course_families_15_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+METH" name=3D"course_families_0_2_1_0" id=3D"course_families_15">
+Methods
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_16_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+LANG" name=3D"course_families_0_2_1_1" id=3D"course_families_16">
+Languages
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_17_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+RT" name=3D"course_families_0_2_1_2" id=3D"course_families_17">
+Real&nbsp;time
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_18_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+IP" name=3D"course_families_0_2_1_3" id=3D"course_families_18">
+Internet
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_19_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+FPGA" name=3D"course_families_0_2_1_4" id=3D"course_families_19">
+Logique&nbsp;Programmable
+</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_20_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_20_data">
+<span id=3D"course_families_20">
+<a name=3D"course_families_0_2_2_0" id=3D"course_families_21">
+&nbsp;
+</a>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"bottom" id=3D"course_families_22_row"=
+ colspan=3D"2" height=3D"*">
+<td valign=3D"bottom" colspan=3D"2" align=3D"right" id=3D"course_families_2=
+2_data">
+<span valign=3D"bottom" name=3D"course_families_0_2_3" id=3D"course_familie=
+s_22">
+<a href=3D"https://www.ac6-training.com/calendrier.php?group=3DPROG" class=
+=3D"carrousel_calendar">Calendar</a>&nbsp;&nbsp;<a href=3D"https://www.ac6-=
+training.com/group.php?group=3DPROG" class=3D"carrousel_seeall">Details</a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+
+<td class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_23_data" c=
+olspan=3D"2" width=3D"228px" height=3D"220px" style=3D"overflow: hidden; mi=
+n-width: 228px; min-height: 220px; padding: 4px; max-height: 220px; max-wid=
+th: 228px;">
+<table class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_23">
+<tbody class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_23_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"PROC_1_row" colspan=3D"2">
+<td valign=3D"top" colspan=3D"2" id=3D"PROC_1_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/group.php?group=3DPR=
+OC" name=3D"PROC" id=3D"PROC_1">
+Processors
+</a>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_24_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_24_data">
+<ul id=3D"course_families_24">
+<li valign=3D"top" id=3D"course_families_25_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+ARM" name=3D"course_families_0_3_1_0" id=3D"course_families_25">
+ARM&nbsp;Cores
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_26_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+FSCA" name=3D"course_families_0_3_1_1" id=3D"course_families_26">
+NXP&nbsp;ARM&nbsp;SoCs
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_27_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+ST" name=3D"course_families_0_3_1_2" id=3D"course_families_27">
+ST&nbsp;processors
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_28_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+TI" name=3D"course_families_0_3_1_3" id=3D"course_families_28">
+TI&nbsp;processors
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_29_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+FSCPPC" name=3D"course_families_0_3_1_4" id=3D"course_families_29">
+NXP&nbsp;Power&nbsp;CPUs
+</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_30_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_30_data">
+<span id=3D"course_families_30">
+<a name=3D"course_families_0_3_2_0" id=3D"course_families_31">
+&nbsp;
+</a>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"bottom" id=3D"course_families_32_row"=
+ colspan=3D"2" height=3D"*">
+<td valign=3D"bottom" colspan=3D"2" align=3D"right" id=3D"course_families_3=
+2_data">
+<span valign=3D"bottom" name=3D"course_families_0_3_3" id=3D"course_familie=
+s_32">
+<a href=3D"https://www.ac6-training.com/calendrier.php?group=3DPROC" class=
+=3D"carrousel_calendar">Calendar</a>&nbsp;&nbsp;<a href=3D"https://www.ac6-=
+training.com/group.php?group=3DPROC" class=3D"carrousel_seeall">Details</a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+
+<td class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_33_data" c=
+olspan=3D"2" width=3D"228px" height=3D"220px" style=3D"overflow: hidden; mi=
+n-width: 228px; min-height: 220px; padding: 4px; max-height: 220px; max-wid=
+th: 228px;">
+<table class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_33">
+<tbody class=3D"NoWidthBox" width=3D"100%" valign=3D"top" id=3D"course_fami=
+lies_33_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"COMM_1_row" colspan=3D"2">
+<td valign=3D"top" colspan=3D"2" id=3D"COMM_1_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/group.php?group=3DCO=
+MM" name=3D"COMM" id=3D"COMM_1">
+Communications
+</a>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_34_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_34_data">
+<ul id=3D"course_families_34">
+<li valign=3D"top" id=3D"course_families_35_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+CONNECT" name=3D"course_families_0_4_1_0" id=3D"course_families_35">
+Connectivity
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_36_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+NET" name=3D"course_families_0_4_1_1" id=3D"course_families_36">
+Network
+</a>
+</li>
+<li valign=3D"top" id=3D"course_families_37_data">
+<a valign=3D"top" href=3D"https://www.ac6-training.com/categorie.php?cat=3D=
+STORAGE" name=3D"course_families_0_4_1_2" id=3D"course_families_37">
+Storage
+</a>
+</li>
+</ul>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_38_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_38_data">
+<span id=3D"course_families_38">
+<a name=3D"course_families_0_4_2_0" id=3D"course_families_39">
+&nbsp;
+</a>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_40_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_40_data">
+<span id=3D"course_families_40">
+<a name=3D"course_families_0_4_3_0" id=3D"course_families_41">
+&nbsp;
+</a>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"top" id=3D"course_families_42_row" co=
+lspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_42_data">
+<span id=3D"course_families_42">
+<a name=3D"course_families_0_4_4_0" id=3D"course_families_43">
+&nbsp;
+</a>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"bottom" id=3D"course_families_44_row"=
+ colspan=3D"2" height=3D"*">
+<td valign=3D"bottom" colspan=3D"2" align=3D"right" id=3D"course_families_4=
+4_data">
+<span valign=3D"bottom" name=3D"course_families_0_4_5" id=3D"course_familie=
+s_44">
+<a href=3D"https://www.ac6-training.com/calendrier.php?group=3DCOMM" class=
+=3D"carrousel_calendar">Calendar</a>&nbsp;&nbsp;<a href=3D"https://www.ac6-=
+training.com/group.php?group=3DCOMM" class=3D"carrousel_seeall">Details</a>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+<td class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_45_data=
+" colspan=3D"2">
+<table class=3D"NoWidthBox" width=3D"100%" id=3D"course_families_45">
+<tbody class=3D"NoWidthBox" width=3D"100%" id=3D"course_families_45_body">
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_more_4_=
+row" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_more_4_data">
+<span id=3D"course_families_more_4">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_more_5_data"=
+>
+<a name=3D"course_families_more_0" id=3D"course_families_more_5" style=3D"d=
+isplay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/circl=
+edplus-20-6ca3b4.png" width=3D"21" height=3D"21" alt=3D"+" data-pagespeed-u=
+rl-hash=3D"662406971">
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_more_6_data"=
+>
+<a name=3D"course_families_more_1" id=3D"course_families_more_6"><img src=
+=3D"https://www.ac6-training.com/generated/PNG/plus-20-A0A0A0.png" width=3D=
+"21" height=3D"21" alt=3D"+" data-pagespeed-url-hash=3D"233045309">
+</a>
+</span>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_up_1_ro=
+w" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_up_1_data">
+<span id=3D"course_families_up_1">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_up_2_data">
+<a name=3D"course_families_up_0" id=3D"course_families_up_2" style=3D"displ=
+ay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/righttria=
+ngle-40-6ca3b4.png" width=3D"21" height=3D"41" alt=3D">" data-pagespeed-url=
+-hash=3D"129512843">
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_up_3_data">
+<a name=3D"course_families_up_1" id=3D"course_families_up_3"><img src=3D"ht=
+tps://www.ac6-training.com/generated/PNG/righttriangle-40-A0A0A0.png" width=
+=3D"21" height=3D"41" alt=3D">" data-pagespeed-url-hash=3D"1718345143">
+</a>
+</span>
+</span>
+</td>
+</tr>
+<tr class=3D"NoWidthBox_Er" valign=3D"middle" id=3D"course_families_less_4_=
+row" colspan=3D"2">
+<td valign=3D"middle" id=3D"course_families_less_4_data">
+<span id=3D"course_families_less_4">
+<span valign=3D"middle" align=3D"center" id=3D"course_families_less_5_data"=
+>
+<a name=3D"course_families_less_0" id=3D"course_families_less_5"><img src=
+=3D"https://www.ac6-training.com/generated/PNG/circledminus-20-6ca3b4.png" =
+width=3D"21" height=3D"21" alt=3D"-" data-pagespeed-url-hash=3D"2978456091"=
+>
+</a>
+</span>
+<span valign=3D"middle" align=3D"center" id=3D"course_families_less_6_data"=
+>
+<a name=3D"course_families_less_1" id=3D"course_families_less_6" style=3D"d=
+isplay: none;"><img src=3D"https://www.ac6-training.com/generated/PNG/minus=
+-20-A0A0A0.png" width=3D"21" height=3D"21" alt=3D"-" data-pagespeed-url-has=
+h=3D"2176884425">
+</a>
+</span>
+</span>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+
+</tr>
+</tbody>
+</table>
+</span>
+
+</span>
+</span>
+
+</div>
+
+<div class=3D"carrousel_lower_separator"><br>
+</div>
+<table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0">
+<tbody><tr>
+<td id=3D"left_frame" align=3D"center" valign=3D"top">
+
+<div id=3D"navbar_1">
+<ul>
+<li id=3D"navbar_1_0"><a href=3D"https://www.ac6.fr/" target=3D"_blank">ac6=
+</a></li>
+<li id=3D"navbar_1_1"><a href=3D"https://www.ac6-training.com/calendrier.ph=
+p?mode=3Dtable">Calendar</a></li>
+<li id=3D"navbar_1_2"><a href=3D"https://www.ac6-conseil.com/" target=3D"_b=
+lank">Consulting</a></li>
+<li id=3D"navbar_1_3"><a href=3D"https://www.ac6-tools.com/" target=3D"_bla=
+nk">Tools</a></li>
+<li id=3D"navbar_1_4"><a href=3D"https://www.openstm32.org/" target=3D"_bla=
+nk">OpenSTM32</a></li>
+<li id=3D"navbar_1_5"><a href=3D"https://www.ac6-training.com/adresses.php"=
+>Contact&nbsp;us</a></li>
+<li id=3D"navbar_1_6"><a href=3D"https://www.ac6-training.com/jobs.php">Job=
+s</a></li>
+</ul>
+</div>
+<table width=3D"150px">
+<tbody><tr>
+<td>
+<b>Last News</b><br>
+<p><a href=3D"https://www.ac6-training.com/newsitem.php?newsID=3D28">Asymme=
+tric debugging with System Workbench for Linux video presentation</a>
+</p><p><a href=3D"https://www.ac6-training.com/newsitem.php?newsID=3D30">Mo=
+tor control by gestures  with System Workbench for Linux on STM32MP1 MCU (v=
+ideo presentation)</a>
+</p></td>
+</tr>
+</tbody></table>
+</td>
+
+<td id=3D"middle_frame">&nbsp;</td>
+<td valign=3D"top" id=3D"right_frame">
+<div class=3D"inter_navbar">
+
+<div id=3D"navbar_2">
+<table width=3D"100%">
+<tbody><tr>
+<td>
+<span id=3D"navbar_2_0"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DV0">Programmable&nbsp;component&nbsp;=
+fundamentals</a><img src=3D"https://www.ac6-training.com/generated/PNG/righ=
+tblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" data=
+-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_1"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DALT1">CYCLONE=E2=88=92V&nbsp;CORTEX=
+=E2=88=92A9&nbsp;HARD&nbsp;PROCESSOR&nbsp;SYSTEM</a><img src=3D"https://www=
+.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb9203.png" width=
+=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"989001602"></spa=
+n>=20
+<span id=3D"navbar_2_2"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DH1">Lattice&nbsp;Mico32&nbsp;FPGA&nbs=
+p;embedded&nbsp;processor</a><img src=3D"https://www.ac6-training.com/gener=
+ated/PNG/rightblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" a=
+lt=3D"]" data-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_3"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DH2">Lattice&nbsp;Diamond</a><img src=
+=3D"https://www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb=
+9203.png" width=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"9=
+89001602"></span>=20
+<span id=3D"navbar_2_4"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DH6">Lattice&nbsp;=E2=88=92&nbsp;PCIe&=
+nbsp;1.1&nbsp;x1,&nbsp;x4&nbsp;IP&nbsp;core</a><img src=3D"https://www.ac6-=
+training.com/generated/PNG/rightblurredarc-25-ececec-bb9203.png" width=3D"1=
+3" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_5"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DHX1">Xilinx&nbsp;=E2=88=92&nbsp;Virte=
+x=E2=88=925&nbsp;FXT&nbsp;Embedded&nbsp;Processor&nbsp;Block</a><img src=3D=
+"https://www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb920=
+3.png" width=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"9890=
+01602"></span>=20
+<span id=3D"navbar_2_6"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DHX2">Xilinx&nbsp;=E2=88=92&nbsp;Spart=
+an=E2=88=926&nbsp;/&nbsp;Virtex=E2=88=926&nbsp;Integrated&nbsp;PCI&nbsp;Exp=
+ress&nbsp;Block</a><img src=3D"https://www.ac6-training.com/generated/PNG/r=
+ightblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" d=
+ata-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_7"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DHX3">Xilinx&nbsp;=E2=88=92&nbsp;Desig=
+ning&nbsp;with&nbsp;Ethernet&nbsp;MAC&nbsp;logicores</a><img src=3D"https:/=
+/www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb9203.png" w=
+idth=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"989001602"><=
+/span>=20
+<span id=3D"navbar_2_8"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DHX4">Xilinx&nbsp;=E2=88=92&nbsp;Micro=
+blaze&nbsp;implementation</a><img src=3D"https://www.ac6-training.com/gener=
+ated/PNG/rightblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" a=
+lt=3D"]" data-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_9"><img src=3D"https://www.ac6-training.com/generated/=
+PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"=
+[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-traini=
+ng.com/cours.php?cat=3DFPGA&amp;ref=3DHX5">Zynq&nbsp;All&nbsp;Programmable&=
+nbsp;SoC:&nbsp;Hardware&nbsp;and&nbsp;Software&nbsp;Design</a><img src=3D"h=
+ttps://www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb9203.=
+png" width=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"989001=
+602"></span>=20
+<span id=3D"navbar_2_10"><img src=3D"https://www.ac6-training.com/generated=
+/PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D=
+"[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-train=
+ing.com/cours.php?cat=3DFPGA&amp;ref=3DMSP">Microsemi&nbsp;SmartFusion2&nbs=
+p;Programming</a><img src=3D"https://www.ac6-training.com/generated/PNG/rig=
+htblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" dat=
+a-pagespeed-url-hash=3D"989001602"></span>=20
+<span class=3D"active" id=3D"navbar_2_11"><img src=3D"https://www.ac6-train=
+ing.com/generated/PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" hei=
+ght=3D"25" alt=3D"[" data-pagespeed-url-hash=3D"2992311089"><a>RISC=E2=88=
+=92V&nbsp;CPU</a><img src=3D"https://www.ac6-training.com/generated/PNG/rig=
+htblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" dat=
+a-pagespeed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_12"><img src=3D"https://www.ac6-training.com/generated=
+/PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D=
+"[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-train=
+ing.com/cours.php?cat=3DFPGA&amp;ref=3DV1">VHDL&nbsp;Language</a><img src=
+=3D"https://www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb=
+9203.png" width=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-hash=3D"9=
+89001602"></span>=20
+<span id=3D"navbar_2_13"><img src=3D"https://www.ac6-training.com/generated=
+/PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D=
+"[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-train=
+ing.com/cours.php?cat=3DFPGA&amp;ref=3DV2">Advanced&nbsp;VHDL&nbsp;for&nbsp=
+;FPGA</a><img src=3D"https://www.ac6-training.com/generated/PNG/rightblurre=
+darc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" data-pagesp=
+eed-url-hash=3D"989001602"></span>=20
+<span id=3D"navbar_2_14"><img src=3D"https://www.ac6-training.com/generated=
+/PNG/leftblurredarc-25-ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D=
+"[" data-pagespeed-url-hash=3D"2992311089"><a href=3D"https://www.ac6-train=
+ing.com/cours.php?cat=3DFPGA&amp;ref=3DV3">Design&nbsp;with&nbsp;SystemC</a=
+><img src=3D"https://www.ac6-training.com/generated/PNG/rightblurredarc-25-=
+ececec-bb9203.png" width=3D"13" height=3D"25" alt=3D"]" data-pagespeed-url-=
+hash=3D"989001602"></span>
+</td>
+</tr>
+</tbody></table>
+</div>
+</div>
+
+<table class=3D"current_page" width=3D"100%">
+<tbody><tr>
+<td valign=3D"middle" class=3D"structure"><a href=3D"https://www.ac6.fr/">a=
+c6</a> &gt;&gt;=20
+<a href=3D"https://www.ac6-training.com/">ac6-training</a> &gt;&gt;=20
+<a href=3D"https://www.ac6-training.com/group.php?group=3DPROG">Programming=
+</a> &gt;&gt;=20
+<a href=3D"https://www.ac6-training.com/categorie.php?cat=3DFPGA">Logique P=
+rogrammable</a> &gt;&gt;=20
+<span>RISC-V CPU</span></td>
+<td></td>
+<td valign=3D"middle"></td><td valign=3D"middle" align=3D"right" width=3D"3=
+7px">
+<a href=3D"https://www.ac6-training.com/catalog.php/Catalogue_ac6-training_=
+en.pdf"><img src=3D"https://www.ac6-training.com/images/PNG/book_button.png=
+" width=3D"25.6" height=3D"25.6" alt=3D"Download Catalog" data-pagespeed-ur=
+l-hash=3D"1956724925"></a>
+</td>
+<td valign=3D"middle" align=3D"right" width=3D"34px">
+<a href=3D"https://www.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_en_=
+GB/print_PDF/Cours_RV1.pdf"><img src=3D"https://www.ac6-training.com/images=
+/PNG/pdf_button.png" width=3D"23.2" height=3D"24" alt=3D"Download as PDF" d=
+ata-pagespeed-url-hash=3D"536450152"></a>
+</td>
+<td valign=3D"middle" align=3D"right" width=3D"35px">
+<a href=3D"mailto:training@ac6-training.com"><img src=3D"https://www.ac6-tr=
+aining.com/images/PNG/email_button.png" width=3D"24" height=3D"24" alt=3D"W=
+rite us" data-pagespeed-url-hash=3D"2368713134"></a>
+</td>
+<td valign=3D"middle" align=3D"right" width=3D"33px">
+<a href=3D"https://www.ac6-training.com/cours.php/cat_FPGA/ref_RV1/lang_en_=
+GB/print_true.xphp"><img src=3D"https://www.ac6-training.com/images/PNG/pri=
+nt_button.png" width=3D"22.4" height=3D"24" alt=3D"Printable version" data-=
+pagespeed-url-hash=3D"3357020489"></a>
+</td>
+</tr>
+</tbody></table>
+<div class=3D"content_header">
+<h1>
+<table align=3D"center">
+<thead>
+<tr align=3D"center" valign=3D"middle">
+<td>RV1</td>
+<td>RISC-V CPU</td>
+</tr>
+</thead>
+</table>
+</h1>
+</div>
+<h2>
+This course covers and explains the implementation of the RISC-V CPU on FPG=
+A platforms
+</h2>
+<div class=3D"cours_definition">
+<div class=3D"cours_entete">
+<table width=3D"100%">
+<tbody><tr>
+<td valign=3D"top"><img src=3D"https://www.ac6-training.com/images/PNG/gran=
+d_bonhomme_torse.png" width=3D"154" height=3D"180" alt=3D"formateur" data-p=
+agespeed-url-hash=3D"1804804027"></td>
+<td valign=3D"top">
+<div class=3D"cours_objectifs" style=3D"float:left;">
+<div class=3D"cours_item_titre">Objective</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">This course aims t=
+o highlight the the RISC-V architecture and the SiFive E31 core </span></li=
+>
+<li valign=3D"baseline"><span class=3D"template_content">It has been develo=
+ped for engineers developing low level software </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">First, an Introduc=
+tion of RISC-V ISA is provided, to highlight the differences between RISC-V=
+ modules </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Although the E31 R=
+ISC-V seems to a simple 32-bit core, it supports sophisticated mechanisms, =
+such as Physical Memory Protection, Global and external interrupt and debug=
+ units </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">The Microsemi Pola=
+rfire Implementation and Embedded Development Kit (EDK) with Libero SoC Pol=
+arFire and software Integrated Development environment (IDE) tools are desc=
+ribed to create a hardware platform and the software to execute to program =
+it </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">The course also de=
+tails the SiFive High performance TileLink Interface </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">A more detailed co=
+urse description is available on request at training@ac6-training.com </spa=
+n></li>
+</ul>
+<table class=3D"cours_item_exercice" width=3D"100%">
+<tbody><tr>
+<td></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content"><font color=3D"darkgreen">A more detailed course description =
+is available on request at <a href=3D"mailto:training@ac6-training.com">tra=
+ining@ac6-training.com</a> </font> </span></i></td>
+</tr>
+</tbody></table>
+</div>
+</td>
+</tr>
+</tbody></table>
+<table class=3D"cours_item" width=3D"100%">
+<tbody><tr>
+<td class=3D"cours_item_texte" width=3D"50%" valign=3D"baseline">
+<div class=3D"cours_item_titre">Course environment</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Microsemi LiberoSo=
+C PolarFire v2.2 and SoftConsole v5.2 </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">AVMPF300TS (Micros=
+emi PolarFire-based) board </span></li>
+</ul>
+</td>
+<td class=3D"cours_item_texte" width=3D"50%" valign=3D"baseline">
+<div class=3D"cours_item_titre">Prerequisites</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Basic knowledge on=
+ processor and FPGA technology </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Knowledge of VHDL =
+and C languages </span></li>
+</ul>
+</td>
+</tr></tbody></table>
+</div>
+<div class=3D"horizontal_rule"><table width=3D"100%" align=3D"center"><tbod=
+y><tr><td width=3D"80%" align=3D"center"><hr></td></tr></tbody></table></di=
+v>
+<div class=3D"cours_plan">
+<table class=3D"cours_item" width=3D"100%">
+<tbody><tr>
+<td class=3D"cours_item_texte" width=3D"50%" valign=3D"baseline">
+<div class=3D"cours_section_titre">First Day</div>
+<div class=3D"cours_item_titre">Introduction to RISC-V ISA Modules</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">RV32-I/E and RV64-=
+I/E Base Integer Instruction SET </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Integer Multiplica=
+tion and division </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Atomic Instruction=
+s </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Floating Point pre=
+cision(Single-double-Quad) </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Compressed Instruc=
+tions </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">SIMD instructions =
+</span></li>
+<li valign=3D"baseline"><span class=3D"template_content">User-Level interru=
+pts </span></li>
+</ul>
+<div class=3D"cours_item_titre">Privileged Architecture</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Control and Status=
+ Registers (CSRs) </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Machine-Level ISA =
+</span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Supervisor-Level I=
+SA </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">RISC-V Interrupts =
+</span></li>
+</ul>
+<div class=3D"cours_item_titre">RISC-V Debug Support</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">System Overview </=
+span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Debug Module </spa=
+n></li>
+<li valign=3D"baseline"><span class=3D"template_content">RISC-V Debug </spa=
+n></li>
+<li valign=3D"baseline"><span class=3D"template_content">Trigger Module </s=
+pan></li>
+<li valign=3D"baseline"><span class=3D"template_content">Debug Transport Mo=
+dule </span></li>
+</ul>
+<div class=3D"cours_item_titre">SiFive E31 Core and Interfaces</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Core Complex Inter=
+faces </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Memory Map </span>=
+</li>
+<li valign=3D"baseline"><span class=3D"template_content">Interrupts </span>=
+</li>
+<li valign=3D"baseline"><span class=3D"template_content">Platform-Level Int=
+errupt Controller </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Core Local Interru=
+pter (CLINT) </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Physical Memory Pr=
+otection </span></li>
+</ul>
+<div class=3D"cours_section_titre">Second Day</div>
+<div class=3D"cours_item_titre">Libero SoC PolarFire</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Microsemi FPGA &am=
+p; SoC overview </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Libero SoC PolarFi=
+re overview </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Create and Design =
+</span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Constraint managem=
+ent </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">TestBench and Simu=
+lations </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Program and Debug =
+</span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Microsemi tools </=
+span></li>
+</ul>
+<table class=3D"cours_item_exercice" width=3D"100%">
+<tbody><tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Create a New Project </span></i></td>
+</tr>
+<tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">TestBench, Simulation </span></i></td>
+</tr>
+<tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Synthesize the design </span></i></td>
+</tr>
+<tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Place &amp; Route </span></i></td>
+</tr>
+</tbody></table>
+</td>
+<td class=3D"cours_item_texte" width=3D"50%" valign=3D"baseline">
+<div class=3D"cours_section_titre">Third Day</div>
+<div class=3D"cours_item_titre">Programming the RISC-V Core</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">SoftConsole </span=
+></li>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Overview and Firmw=
+are drivers </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Supported platform=
+s </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Packages </span></=
+li>
+<li valign=3D"baseline"><span class=3D"template_content">Related Microsemi =
+Tools and resources </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">RISC-V Hardware Ab=
+straction Layer (HAL) </span></li>
+</ul>
+<li valign=3D"baseline"><span class=3D"template_content">SmartDebug </span>=
+</li>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Introduction and S=
+martDebug User Interface </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Debugging </span><=
+/li>
+<li valign=3D"baseline"><span class=3D"template_content">RISC-V project </s=
+pan></li>
+<li valign=3D"baseline"><span class=3D"template_content">Debugging and Trou=
+bleshooting </span></li>
+</ul>
+</ul>
+<table class=3D"cours_item_exercice" width=3D"100%">
+<tbody><tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Building a RISC-V Processor subsystem </span></i></td>
+</tr>
+<tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Creating a RISC-V SoftConsole Project </span></i></td>
+</tr>
+<tr>
+<td valign=3D"baseline"><i><b>Exercise:&nbsp;</b></i></td>
+<td colspan=3D"2" valign=3D"baseline" width=3D"100%"><i><span class=3D"temp=
+late_content">Managing interrupts and priorities </span></i></td>
+</tr>
+</tbody></table>
+<div class=3D"cours_section_titre">Fourth Day</div>
+<div class=3D"cours_item_titre">AMBA AXI4</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">AXI architecture o=
+verview </span></li>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Overview </span></=
+li>
+<li valign=3D"baseline"><span class=3D"template_content">Address Channels <=
+/span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Data Response Chan=
+nels </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Global and Low Pow=
+er Interface Signals </span></li>
+</ul>
+<li valign=3D"baseline"><span class=3D"template_content">AXI Interconnectio=
+n Architectures </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">AXI vs AHB </span>=
+</li>
+</ul>
+<div class=3D"cours_item_titre">AHB =E2=80=93 Advanced High Performance Bus=
+</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Centralized addres=
+s decoding </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Address gating log=
+ic </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Address pipelining=
+ </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Sequential transfe=
+rs </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">AHB-lite specifica=
+tion </span></li>
+</ul>
+<div class=3D"cours_item_titre">APB =E2=80=93 Advanced Peripheral Bus</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Second-level addre=
+ss decoding </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Operation of the A=
+HB-to-APB bridge </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">APB3.0 new feature=
+s </span></li>
+</ul>
+<div class=3D"cours_item_titre">SiFive TileLink</div>
+<ul>
+<li valign=3D"baseline"><span class=3D"template_content">Architecture </spa=
+n></li>
+<li valign=3D"baseline"><span class=3D"template_content">Signal description=
+s </span></li>
+<li valign=3D"baseline"><span class=3D"template_content">Serialization </sp=
+an></li>
+<li valign=3D"baseline"><span class=3D"template_content">Operations and Mes=
+sages </span></li>
+</ul>
+</td>
+</tr></tbody></table>
+</div>
+</div>
+<div class=3D"content_footer">&nbsp;
+<table align=3D"center" width=3D"60%">
+<thead>
+<tr>
+<td width=3D"30%">Duration</td>
+<td width=3D"40%">Cost</td>
+<td width=3D"30%">Calendar</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td width=3D"30%">4 jours</td>
+<td width=3D"40%">2250&nbsp;=E2=82=AC</td>
+<td width=3D"30%">
+<a href=3D"https://www.ac6-training.com/calendrier.php?cat=3DFPGA"><img src=
+=3D"https://www.ac6-training.com/images/calendrier.gif" width=3D"31" height=
+=3D"25" alt=3D"Session calendar" data-pagespeed-url-hash=3D"3260155139">
+</a>
+</td>
+</tr>
+</tbody>
+</table>&nbsp;
+</div>
+</td>
+</tr>
+</tbody></table>
+</div>
+<div class=3D"page_footer"><br>
+<table width=3D"100%">
+<tbody><tr>
+<td align=3D"center" valign=3D"middle">
+</td>
+<td width=3D"100%">
+<table width=3D"100%"><colgroup><col width=3D"50%"><col><col width=3D"50%">
+</colgroup><tbody><tr>
+<td align=3D"center" valign=3D"middle"><hr></td>
+<td align=3D"center" valign=3D"middle"><a href=3D"https://www.ac6.fr/"><img=
+ src=3D"https://www.ac6-training.com/images/PNG/logo_ac6.png" width=3D"116"=
+ height=3D"75" alt=3D"Ac6 SARL" data-pagespeed-url-hash=3D"2829060001"></a>=
+</td>
+<td align=3D"center" valign=3D"middle"><hr></td>
+</tr>
+<tr><td colspan=3D"3" align=3D"center" valign=3D"top"><a href=3D"mailto:web=
+master@ac6-training.com">webmaster@ac6-training.com</a></td></tr>
+<tr><td colspan=3D"3" align=3D"center" valign=3D"top">Last <a href=3D"https=
+://www.ac6-training.com/site_map.php">site</a> update: Tue Mar 24 12:41:09 =
+2020</td></tr>
+</tbody></table>
+</td>
+</tr>
+</tbody></table>
+</div>
+
+</body></html>
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-18b0ce71-b023-4280-bebb-9560385b22ce@mhtml.blink
+
+@charset "utf-8";
+
+html { background-color: rgb(255, 255, 255); }
+
+body { background-color: silver; font-family: Verdana, Arial, Helvetica, sa=
+ns-serif; font-size: small; margin: 0px; }
+
+#overDiv { background-color: red; }
+
+.page_header { position: relative; background-image: url("/images/PNG/ac6-h=
+eader-filler.png"); background-repeat: repeat-x; height: 185px; font-family=
+: "new century schoolbook", Times, serif; margin: 0px; padding: 0px; border=
+: 0px; outline: 0px; }
+
+.page_header table, tbody, thead, tr, td { margin: 0px; padding: 0px; borde=
+r: 0px; outline: 0px; }
+
+#page_title { margin: 0px; background-image: url("/images/PNG/mountain-bann=
+er.png"); background-repeat: no-repeat; background-attachment: scroll; back=
+ground-position: left top; }
+
+#page_title #header_logo img { margin-top: 42px; margin-left: 38px; }
+
+#page_title #header_title { position: relative; }
+
+div.carrousel_lower_separator { background-image: url("/images/PNG/ac6-down=
+-rule.png"); background-repeat: repeat-x; height: 28px; }
+
+#page_title #header_title span { position: relative; top: 40px; left: 0px; =
+font-family: Verdana, Arial, Helvetica, sans-serif; font-size: x-large; col=
+or: rgb(0, 171, 226); text-shadow: white 2px 2px 0px; }
+
+.inter_navbar { display: block; background-color: rgb(223, 223, 223); font-=
+family: Verdana, Arial, Helvetica, sans-serif; margin: 0px; padding: 0px; }
+
+.page_content { font-family: Verdana, Arial, Helvetica, sans-serif; backgro=
+und-color: rgb(236, 236, 236); margin: 0px; padding: 0px; }
+
+.floating_left_pane { display: block; float: left; }
+
+.floating_right_pane { display: block; float: right; }
+
+#left_frame { background-repeat: repeat-y; background-attachment: scroll; b=
+ackground-position: center top; margin: 0px; padding: 0px; text-align: cent=
+er; }
+
+#left_frame table { background-color: rgb(236, 236, 236); min-width: 108px;=
+ }
+
+#left_frame td { font-size: smaller; background-color: rgb(255, 255, 255); =
+border: 2px solid rgb(0, 0, 139); padding: 5px; }
+
+#left_frame td a { text-decoration: none; }
+
+#right_frame { margin: 0px; padding: 5px; width: 100%; }
+
+.boxed_table tbody { background-color: rgb(255, 255, 255); width: 100%; }
+
+.boxed_table td { border: 2px solid rgb(0, 0, 139); margin: 2px; padding: 5=
+px; }
+
+.boxed_table th { border: 2px solid rgb(0, 0, 139); margin: 2px; padding: 5=
+px; width: auto; }
+
+.content_header table { margin-top: 10px; margin-bottom: 5px; border-width:=
+ 3px; border-style: outset; text-align: center; }
+
+.content_header thead { background-color: rgb(187, 146, 3); color: rgb(236,=
+ 236, 236); font-weight: bold; }
+
+.content_header tbody { background-color: rgb(255, 255, 255); color: rgb(23=
+6, 236, 236); }
+
+.content_header td { border-width: 2px; border-style: inset; padding: 5px; =
+}
+
+.content_header th { border-width: 2px; border-style: inset; padding: 5px; =
+}
+
+div .indent_block { padding-left: 40px; padding-right: 40px; }
+
+div .center_block { padding-left: 40px; padding-right: 40px; text-align: ce=
+nter; }
+
+.cours_definition { font-family: Verdana, Arial, Helvetica, sans-serif; col=
+or: rgb(96, 96, 96); }
+
+.cours_objectifs { font-size: larger; font-weight: bolder; }
+
+.cours_plan { margin: 0px; padding: 1px; }
+
+.cours_section_titre { font-size: larger; font-weight: bolder; font-variant=
+: small-caps; background-color: rgb(187, 146, 3); color: rgb(236, 236, 236)=
+; text-align: center; margin-top: 15px; margin-bottom: 10px; }
+
+.cours_section_titre td { padding-top: 5px; padding-bottom: 3px; }
+
+.cours_item_titre { font-size: larger; font-weight: bolder; color: rgb(96, =
+96, 96); margin-top: 10px; margin-bottom: 5px; }
+
+.cours_item_titre td { padding-top: 3px; padding-bottom: 2px; }
+
+.cours_item_texte { color: rgb(96, 96, 96); }
+
+.cours_item_exercice { color: rgb(187, 146, 3); margin-top: 5px; margin-bot=
+tom: 5px; }
+
+.horizontal_rule hr { margin: 10px; border: 2px outset; height: 10px; width=
+: 80%; background-color: rgb(187, 146, 3); }
+
+.content_footer table { margin-top: 10px; margin-bottom: 5px; border-width:=
+ 3px; border-style: outset; text-align: center; font-weight: bold; }
+
+.content_footer thead { background-color: rgb(187, 146, 3); color: rgb(236,=
+ 236, 236); }
+
+.content_footer tbody { background-color: rgb(255, 255, 255); color: rgb(96=
+, 96, 96); }
+
+.content_footer td { border-width: 2px; border-style: inset; padding: 3px; =
+}
+
+.page_footer { background-color: rgb(255, 255, 255); font-family: "new cent=
+ury schoolbook", Times, serif; margin: 0px; padding: 10px; clear: left; }
+
+h1 { font-size: x-large; font-weight: bold; text-align: center; }
+
+h2 { font-size: large; text-align: center; }
+
+h3 { font-size: medium; font-weight: bold; text-align: center; }
+
+h4 { font-size: medium; font-style: italic; text-align: center; }
+
+.template_content h3 { font-size: larger; font-weight: bolder; font-variant=
+: small-caps; background-color: rgb(187, 146, 3); color: rgb(236, 236, 236)=
+; text-align: center; margin-top: 15px; margin-bottom: 10px; }
+
+.template_content h4 { font-size: larger; font-weight: bolder; color: rgb(9=
+6, 96, 96); margin-top: 10px; margin-bottom: 5px; }
+
+.page_content ul { list-style-type: circle; list-style-image: url("/generat=
+ed/PNG/righttriangle-10-bb9203.png"); padding-left: 36px; margin-top: 0px; =
+margin-bottom: 5px; }
+
+.page_content ul ul { list-style-type: circle; list-style-image: url("/gene=
+rated/PNG/fullbullet-6-bb9203.png"); padding-left: 21px; margin-top: 0px; m=
+argin-bottom: 5px; }
+
+.page_content ul ul ul { list-style-type: circle; list-style-image: url("/g=
+enerated/PNG/emptybullet-6-bb9203.png"); padding-left: 21px; margin-top: 0p=
+x; margin-bottom: 3px; }
+
+img { border: 0px; }
+
+a:link { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(0, =
+171, 226); text-decoration: none; }
+
+a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(=
+0, 171, 226); text-decoration: none; }
+
+a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(0,=
+ 100, 0); text-decoration: underline; }
+
+a:active { font-family: Verdana, Arial, Helvetica, sans-serif; color: rgb(0=
+, 100, 0); text-decoration: none; }
+
+tr .title_bloc { background-color: rgb(165, 42, 42); color: rgb(255, 255, 2=
+55); border-top: 6px solid silver; }
+
+.title_bloc th { border-top: 6px solid silver; background-color: rgb(165, 4=
+2, 42); color: rgb(255, 255, 255); padding: 6px; }
+
+.calendar table { background-color: rgb(236, 236, 236); border-collapse: co=
+llapse; border-spacing: 0px; }
+
+.calendar { border: 1px solid rgb(236, 236, 236); }
+
+.calendar td { border: 1px solid rgb(236, 236, 236); padding: 2px; }
+
+.calendar th { border: 1px solid rgb(236, 236, 236); text-align: center; ve=
+rtical-align: middle; padding: 2px; }
+
+.cal_header { background-color: rgb(210, 105, 30); color: rgb(255, 255, 255=
+); font-weight: bold; font-size: large; }
+
+.cal_header th { border-top: 10px solid rgb(236, 236, 236); padding: 3px; }
+
+.cal_header td { border-top: 10px solid rgb(236, 236, 236); padding: 3px; }
+
+.cal_category { background-color: rgb(165, 42, 42); font-weight: bold; font=
+-size: medium; color: rgb(255, 255, 255); }
+
+.cal_category th { border-top: 5px solid rgb(236, 236, 236); }
+
+.cal_category td { border-top: 5px solid rgb(236, 236, 236); }
+
+.cal_col_header { background-color: rgb(165, 42, 42); color: rgb(255, 255, =
+255); font-weight: bold; }
+
+.cal_c_even { background-color: rgb(245, 245, 220); font-size: smaller; col=
+or: rgb(0, 0, 0); }
+
+.cal_c_odd { background-color: rgb(255, 228, 181); font-size: smaller; colo=
+r: rgb(0, 0, 0); }
+
+.cal_c_even_sessions td { width: 15%; }
+
+.cal_c_odd_sessions td { width: 15%; }
+
+.cal_c_even_s_even { background-color: rgb(255, 228, 181); font-size: small=
+er; color: rgb(0, 0, 0); }
+
+.cal_c_even_s_odd { background-color: rgb(245, 245, 220); font-size: smalle=
+r; color: rgb(0, 0, 0); }
+
+.cal_c_odd_s_even { background-color: rgb(245, 245, 220); font-size: smalle=
+r; color: rgb(0, 0, 0); }
+
+.cal_c_odd_s_odd { background-color: rgb(255, 228, 181); font-size: smaller=
+; color: rgb(0, 0, 0); }
+
+.calendar a:link { font-family: Verdana, Arial, Helvetica, sans-serif; colo=
+r: rgb(0, 0, 0); text-decoration: none; }
+
+.calendar a:visited { font-family: Verdana, Arial, Helvetica, sans-serif; c=
+olor: rgb(0, 0, 0); text-decoration: none; }
+
+.calendar a:hover { font-family: Verdana, Arial, Helvetica, sans-serif; col=
+or: rgb(0, 0, 139); text-decoration: none; }
+
+.calendar a:active { font-family: Verdana, Arial, Helvetica, sans-serif; co=
+lor: rgb(0, 0, 139); text-decoration: none; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/ac6-header-filler.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAC5CAMAAADeUqWjAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOkIwMkU1RTBBRTNDQTExRTJBNERDQUNEREEwNUZDM0Y2IiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOkIwMkU1RTBCRTNDQTExRTJBNERDQUNEREEwNUZDM0Y2Ij4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6QjAyRTVFMDhFM0NBMTFFMkE0RENB
+Q0REQTA1RkMzRjYiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6QjAyRTVFMDlFM0NBMTFFMkE0
+RENBQ0REQTA1RkMzRjYiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz41ZSYeAAAALVBMVEXu7u7t7e3x8fHz8/Pv7+/y8vLw8PD0
+9PTV1dX19fXHx8e3u7+5uLjg4ODo6OiGrYVYAAAAMElEQVR42ozItxHAIADAQJGDDfuPS0PNSd+J
+QZOSVqSoVSlrtiB8/Ew6i33PoyPAADnRAojaLuoeAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/mountain-banner.png
+
+iVBORw0KGgoAAAANSUhEUgAAA+wAAACeCAMAAACfBXDtAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjA0REY2QUExRTNDOTExRTI5MzIwQ0FEQkRBOUVGMDAyIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjA0REY2QUEyRTNDOTExRTI5MzIwQ0FEQkRBOUVGMDAyIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MDRERjZBOUZFM0M5MTFFMjkzMjBD
+QURCREE5RUYwMDIiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MDRERjZBQTBFM0M5MTFFMjkz
+MjBDQURCREE5RUYwMDIiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz5oPw+hAAAAwFBMVEXO2eYNbrNus+S6xNHa5vXb29vt7e33
++v+Sxuupsr05lte0vMbq6urr8/+lz+5Qo93l5eW/ytfU1NQTeMDg4eHh7fxEnNooi9FNibXU4O4a
+gMgihs2eprHGyMtequDG0d+AvOeTm6WJkJmUtc8veq96qc3W1tZ8govm5uYygLfi4uLo6OjZ2dm5
+2fFnbHTj5OQ4icTX19cqb5+jwdowkNRhlbvJzNFGlM0yjs/Oz9Pj4+Te3t/g6fTn7vfn5+f///9E
+koP7AAAAQHRSTlP/////////////////////////////////////////////////////////////
+//////////////////////8AwnuxRAAAZGVJREFUeNrsfQtj0zjWtkCG1CMcKsDsatapmnSh3UKn
+y5vZzrS1+f7/v/rOTbLsOInTCxSI2qa5OLYs6dG5n6P+X6edzP/3z7u3//x73wbaf/75I7b/pe1H
+vIH//Pztv1um8KSLbpU8z//5bN/2rW1vn739N/3sh2L9EG39fYCfdb/wsLHB5/93PgT2yf/tp27f
+1izoXwGpd/15GDyvR/ZaqI9s/7cK9mKP9X37xcDbPfqBcNs+xH9DcN5IjtPHZ283HT9mH/j3pAf2
+l/ulsm8/OoA7v6O/tplOb4RTxGKCsGd9wA6jeSPsO18fTcLXtoD2APY9Xd+3p09+709/u3iN8O58
++iyRhp+93SwwP+vQ4GejaO+DAHg3tHfAvsf6vj1t+juO/PbfSt/vIy9B3BANDV8ag8tvjN27ol3t
+mfh9exzpdxfm+e04+D7rkOQO1p6tYDVlqAN6Vw/6Bdrvb39Pwb4n7HsAb6S+DwDgLrV9lhDODoB7
+FPjtEPV91iG+HQgPaaie/cwwXvuDD/yLL/63B/vPhN67Cb8PZyXaIv0+W0NtV/HZEX13NDP93PiN
+8JX2dsSRAvd/78H+M9Hft3dUP4/kn/vfXJGA+/T32dtNDPRWkvvsV6G/PQS/3QThlFinT4aO67R/
+78H+JAXg3ajvjsR3BcDrtc9v++T37QCAf9G2C/ndQn9XITwA4i54+0ge0/Zg/57wfSDt8wrke/qr
+FVesBLvPVvRXKzrqEf6YvwCC70J+346gvxG4d4HvTu0/e7Cvh/DjG383yb4r1HdY+zyIuWdd/dXb
+X5cA/z6SAL/dSoCTA0eT3yfW/vnzg31HJN7P/LtFe7ViAe7oktcpojoKra72+dmgv9WvCuBVBvrt
+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
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/ac6-down-rule.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAcCAMAAACXgyX+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOjhGODU4Qzk3RTNDQTExRTI5MzU0RDcwMzNDNTU3Qjg1IiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOjhGODU4Qzk4RTNDQTExRTI5MzU0RDcwMzNDNTU3Qjg1Ij4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6OEY4NThDOTVFM0NBMTFFMjkzNTRE
+NzAzM0M1NTdCODUiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6OEY4NThDOTZFM0NBMTFFMjkz
+NTRENzAzM0M1NTdCODUiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz4R17igAAAAGFBMVEXu7u7t7e3o6OjV1dXHx8e5uLi3u7/g
+4OD93cnDAAAAH0lEQVR42mJgwAMYwZCJgZ2BmYGFgZWBDSoChAABBgACPQAkRlAlIwAAAABJRU5E
+rkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-10-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAYAAAALAQMAAABmnG7VAAAABlBMVEUAAAC7kgO2EhEcAAAAAXRS
+TlMAQObYZgAAABpJREFUCNdjaGA4wPCA4QfDHzD8AWQfYGgAAGSiCSWR0bUhAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/fullbullet-6-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHAQMAAAD+nMWQAAAABlBMVEUAAAC7kgO2EhEcAAAAAXRS
+TlMAQObYZgAAABJJREFUCNdjsGCoYfgHhjUMFgAevARjOaGnhQAAAABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c8c45a03-c00a-4809-b256-f37852dc1fc6@mhtml.blink
+
+@charset "utf-8";
+
+.nowidth_hdr { margin: 0px; padding: 0px; border: 0px; outline: 0px; }
+
+.nowidth_hdr table, tbody, tr, td { margin: 0px; padding: 0px; border: 0px;=
+ outline: 0px; }
+
+.user_welcome { background-color: rgb(223, 223, 223); font-family: "new cen=
+tury schoolbook", Times, serif; font-size: smaller; margin: 0px; padding: 0=
+px; border: 0px; outline: 0px; height: 28px; }
+
+.user_welcome tbody, tr, td { margin: 0px; padding: 0px; border: 0px; outli=
+ne: 0px; }
+
+.lang_pane { display: block; float: right; margin: 0px; padding: 0px; }
+
+.lang_pane .active { padding: 1px; background-color: rgb(255, 255, 255); bo=
+rder: 1px solid rgb(0, 0, 139); }
+
+.lang_pane a img { padding: 1px; }
+
+.login_pane { display: block; float: left; margin: 0px; padding: 0px; }
+
+.login_pane a { font-size: smaller; }
+
+.login_pane input { font-family: "new century schoolbook", Times, serif; fo=
+nt-size: smaller; height: 1em; margin: 0px; padding: 0px; }
+
+.login_pane button { font-family: "new century schoolbook", Times, serif; f=
+ont-size: smaller; margin: 0px; padding: 0px; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-ea26f017-c032-469d-b2c5-abb9c7240c83@mhtml.blink
+
+@charset "utf-8";
+
+.NoWidthBox { border: 0px; padding: 0px; margin: 0px; outline: 0px; }
+
+.NoWidthBox table, tbody, tr, td { border: 0px; padding: 0px; margin: 0px; =
+outline: 0px; }
+
+.EmphasizeText { font-size: larger; font-weight: bolder; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-16ce057e-3132-45bf-8b6b-60ae2c4bd3c7@mhtml.blink
+
+@charset "utf-8";
+
+.NoWidthBox { border: 0px; padding: 0px; margin: 0px; outline: 0px; }
+
+.NoWidthBox table, tbody, tr, td { border: 0px; padding: 0px; margin: 0px; =
+outline: 0px; }
+
+.EmphasizeText { font-size: larger; font-weight: bolder; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-9c08eb02-6cd6-471e-a721-939f239e5068@mhtml.blink
+
+@charset "utf-8";
+
+#course_families_1 { position: relative; height: 200px; }
+
+#course_families_1 td { margin: 0px; top: 0px; left: 0px; font-size: 11pt; =
+font-weight: bold; height: 100%; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c2ead824-db3c-4be5-80fb-c83dc2cbfb78@mhtml.blink
+
+@charset "utf-8";
+
+#course_families_4_data table { padding: 0px; background-image: url("/image=
+s/PNG/ac6-carrousel-background.png"); background-size: 100% 100%; margin-bo=
+ttom: 6px; }
+
+#course_families_4_data table tbody { padding: 0px; margin: 0px; border: 0p=
+x; outline: 0px; }
+
+#course_families_4_data table tbody tr { background-image: none; background=
+-repeat: no-repeat; padding: 0px; margin: 0px; border: 0px; outline: 0px; }
+
+#course_families_4_data table tbody tr td { padding: 0px; margin: 0px; bord=
+er: 0px; outline: 0px; vertical-align: baseline; }
+
+#course_families_4 { padding: 0px; margin: 0px; border: 0px; outline: 0px; =
+color: rgb(48, 48, 48); text-align: left; }
+
+#course_families_4 ul { margin: 0px; padding-left: 29px; list-style: url("/=
+generated/PNG/fullbullet-12-8e689c.png"); }
+
+#course_families_4 li a { display: block; padding: 2px; text-decoration: no=
+ne; background-color: transparent; background-repeat: no-repeat; background=
+-image: none; color: rgb(48, 48, 48); }
+
+#course_families_4 span a { display: block; padding: 1px; text-decoration: =
+none; background-color: transparent; background-repeat: no-repeat; backgrou=
+nd-image: none; color: rgb(48, 48, 48); }
+
+#course_families_4 a:link { color: rgb(48, 48, 48); }
+
+#course_families_4 a:hover { color: rgb(0, 0, 0); }
+
+#course_families_4 #OS_1_row { padding: 0px; margin: 0px; border: 0px; outl=
+ine: 0px; background-image: url("/generated/PNG/vertgradiantfiller-30-c6b3c=
+d-71537c.png"); background-repeat: repeat-x; }
+
+#course_families_4 #OS_1_row td { border: 0px; background-image: url("/gene=
+rated/PNG/downtriangle-10-71537c.png"); background-repeat: no-repeat; backg=
+round-position: 5px 30px; display: block; margin: 0px; padding: 0px; outlin=
+e: 0px; }
+
+#course_families_4 #OS_1_row td a { display: block; text-decoration: none; =
+vertical-align: middle; margin: 0px; outline: 0px; padding: 4px 6px 0px; he=
+ight: 40px; color: rgb(255, 255, 255); }
+
+#course_families_4 td#course_families_12_data { padding: 8px; position: rel=
+ative; display: block; }
+
+#course_families_4 #course_families_12_data span a { text-align: right; }
+
+#course_families_4 #course_families_12_data a.carrousel_calendar { position=
+: absolute; top: 33%; right: 36%; text-decoration: none; text-shadow: white=
+ 1px 1px 2px; font-size: 7pt; font-weight: normal; }
+
+#course_families_4 #course_families_12_data a.carrousel_seeall { position: =
+absolute; top: 29%; right: 7%; text-decoration: none; text-shadow: white 1p=
+x 1px 2px; font-size: 7pt; font-weight: normal; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/ac6-carrousel-background.png
+
+iVBORw0KGgoAAAANSUhEUgAAANQAAACTCAMAAADBXcf+AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAA2RpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEu
+MC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVz
+b3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1N
+Ok9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTQ4MkIxM0I4NTFFMjExOTFGQjlCNzk0NTM5
+MUQ4QiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo2OEQ5QkJFNkUzQ0IxMUUyOEM4MkMxMTk4
+RDExRTU1QSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo2OEQ5QkJFNUUzQ0IxMUUyOEM4MkMx
+MTk4RDExRTU1QSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IFdpbmRvd3Mi
+PiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDowNDQ4MkIxM0I4
+NTFFMjExOTFGQjlCNzk0NTM5MUQ4QiIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDowNDQ4MkIx
+M0I4NTFFMjExOTFGQjlCNzk0NTM5MUQ4QiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRG
+PiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnOmuUEAAADAUExURZWUlMzMzNHR0ebm
+5tbV1bu7u97e3uHh4cTExLOystjY2K2srKampt3c3NfW1vb29tra2vz8/LCvr/Pz89PT06empvLy
+8vHx8fDw8OLi4u7u7u/v7+zs7Onp6erq6ujo6Ovr6+Tk5O3t7ezr6+Pj4+Xl5e7v7+Tl5eXm5uzt
+7efn59/f39vb28jIyM/Pz+/u7uvq6t3d3dvc3Ovs7Obl5fT09NDQ0OPk5PDx8be2turr6+nq6uPi
+4r+/v/Py8v////q6A98AAABAdFJOU///////////////////////////////////////////////
+/////////////////////////////////////wDCe7FEAAADLElEQVR42uzXX3eTMBzG8QShhIQy
+msG2bus6Zuu0ELT+qaIi7/9dmXk82uuQHdbn/L6nt1x8+gQOsPnZOVgXhhGKUIQiFKEIRShCjUft
+CUUoQvnrkiMuxTGXmiEuRShCTYiqEVExHqolFKGmQx0IRajpUAEmakkoQk2FKtiGUCeBCu3xuwDr
+8mkpOFSIiMpYhYiipQg1GUpiojZfLsG6sscPEnUOh5Jsi4fKMZei43caqAZxKYu6uALrJmdbONTV
+nFAncvwaWup0UJc3aBHqdFAVHqrBXOrx2xu0PrLq6hqtBhO1wUPlhDoZ1PLmAS2JiYrhULcZKOrN
+O7A+hSy+vgXrPmQ1Hqpg9Q0gaoaHCjBR+/evwfoAiprjoVpMVHN9D9Ydx0TlhCLURK04kw93YK0M
+k9eEOg1UBoe6E4ColUU9rMBag6JCRFSBh+oxUcHtGqwdoQg1YRHiUhb1CRB1uN2B9SpiLaEINVHb
+iPH7V2BtO8a/vwXr0aLutmBViKivFvXjEawn1KoC62vC+BoNtUkAl9qALmXWG7CWqKjdEqxYE+pk
+UGIXo2VRW7Ch6lrBoep98CyoKR/ncZNFxj/KHup6svayEGrBROX3Lp3lWTFdAe+VGHyj9pL3fTRd
+nRILi9p43Um2XZlOV5lYk2dUbW/TUnfdiH9aJ4nrtYnui401WdRPn/dpbpQWPMgck6ZM7eVOtYKZ
+J9EflMdn1eyjTLTIpHtRGgWulelfk0UtPQ7VcBWNIOWtSlpXE2ft8A8Vz3y1b2Snx+wkRSocSYdD
+xxbPgZrnRSnGmIpO84NbrSnN8AyofZ5HSZG5J43qHU0H3rP4P6qv557KZaj6EaawiJRpHTOlPjtC
+xf5QQo0YKsy4SrirKWLF8AxLNTLUXeheUUSlcCNx06fJcIQSs8ZPMhSKjzAFRinhVh+VrDpG9Xvp
+x1QcVDfi9brlOlWuMdYtjlFdkEk/pk4L416fpMy97ttwjEqiQxDKkWWh/ZBJEz0ixfR68BQzKjKG
+j80I+3bOxpSWs4U31NApbT8Vxv6USnbDS4kN50KX49Pm8/CCUMOvSiQj60Q1vKB+CzAAQntU0U9B
+iBEAAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/fullbullet-12-8e689c.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAQMAAABM0KYCAAAABlBMVEUAAACOaJwaUbGFAAAAAXRS
+TlMAQObYZgAAABxJREFUCNdj4G9gsH/AUP8BhP7/QEEQQaAsfwMAbzoS7N2fO1MAAAAASUVORK5C
+YII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/vertgradiantfiller-30-c6b3cd-71537c.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAANUlEQVQI113LwQkAMAxC0eL+23SH
+3rpRvuSStJCDIPJcZ18RCDoWIMfvbw/k4Sjn4frn4WpPl39YgqJFpO0AAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/downtriangle-10-71537c.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAKAQMAAACHcEzfAAAABlBMVEUAAABxU3w4cYgoAAAAAXRS
+TlMAQObYZgAAACRJREFUCNdj+P+foR6I/jHY/2GQ/8HAD0QfGNgfMDAfYGBuAADKegt/96HlXwAA
+AABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b6a964a8-c005-4b27-97db-c0c69470bb96@mhtml.blink
+
+@charset "utf-8";
+
+#course_families_13_data table { padding: 0px; background-image: url("/imag=
+es/PNG/ac6-carrousel-background.png"); background-size: 100% 100%; margin-b=
+ottom: 6px; }
+
+#course_families_13_data table tbody { padding: 0px; margin: 0px; border: 0=
+px; outline: 0px; }
+
+#course_families_13_data table tbody tr { background-image: none; backgroun=
+d-repeat: no-repeat; padding: 0px; margin: 0px; border: 0px; outline: 0px; =
+}
+
+#course_families_13_data table tbody tr td { padding: 0px; margin: 0px; bor=
+der: 0px; outline: 0px; vertical-align: baseline; }
+
+#course_families_13 { padding: 0px; margin: 0px; border: 0px; outline: 0px;=
+ color: rgb(48, 48, 48); text-align: left; }
+
+#course_families_13 ul { margin: 0px; padding-left: 29px; list-style: url("=
+/generated/PNG/fullbullet-12-bb9203.png"); }
+
+#course_families_13 li a { display: block; padding: 2px; text-decoration: n=
+one; background-color: transparent; background-repeat: no-repeat; backgroun=
+d-image: none; color: rgb(48, 48, 48); }
+
+#course_families_13 span a { display: block; padding: 1px; text-decoration:=
+ none; background-color: transparent; background-repeat: no-repeat; backgro=
+und-image: none; color: rgb(48, 48, 48); }
+
+#course_families_13 a:link { color: rgb(48, 48, 48); }
+
+#course_families_13 a:hover { color: rgb(0, 0, 0); }
+
+#course_families_13 #PROG_1_row { padding: 0px; margin: 0px; border: 0px; o=
+utline: 0px; background-image: url("/generated/PNG/vertgradiantfiller-30-dd=
+c881-957402.png"); background-repeat: repeat-x; }
+
+#course_families_13 #PROG_1_row td { border: 0px; background-image: url("/g=
+enerated/PNG/downtriangle-10-957402.png"); background-repeat: no-repeat; ba=
+ckground-position: 5px 30px; display: block; margin: 0px; padding: 0px; out=
+line: 0px; }
+
+#course_families_13 #PROG_1_row td a { display: block; text-decoration: non=
+e; vertical-align: middle; margin: 0px; outline: 0px; padding: 4px 6px 0px;=
+ height: 40px; color: rgb(255, 255, 255); }
+
+#course_families_13 td#course_families_22_data { padding: 8px; position: re=
+lative; display: block; }
+
+#course_families_13 #course_families_22_data span a { text-align: right; }
+
+#course_families_13 #course_families_22_data a.carrousel_calendar { positio=
+n: absolute; top: 33%; right: 36%; text-decoration: none; text-shadow: whit=
+e 1px 1px 2px; font-size: 7pt; font-weight: normal; }
+
+#course_families_13 #course_families_22_data a.carrousel_seeall { position:=
+ absolute; top: 29%; right: 7%; text-decoration: none; text-shadow: white 1=
+px 1px 2px; font-size: 7pt; font-weight: normal; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/fullbullet-12-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAQMAAABM0KYCAAAABlBMVEUAAAC7kgO2EhEcAAAAAXRS
+TlMAQObYZgAAABxJREFUCNdj4G9gsH/AUP8BhP7/QEEQQaAsfwMAbzoS7N2fO1MAAAAASUVORK5C
+YII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/vertgradiantfiller-30-ddc881-957402.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAN0lEQVQI132NuwkAIBQDJZu7nUs4
+ST5YKPKwsEo4jqTN0WETsWALsZDw9p1EosJ4vB9j2dP7sQCEv1hOH2q9AQAAAABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/downtriangle-10-957402.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAKAQMAAACHcEzfAAAABlBMVEUAAACVdAL74h4KAAAAAXRS
+TlMAQObYZgAAACRJREFUCNdj+P+foR6I/jHY/2GQ/8HAD0QfGNgfMDAfYGBuAADKegt/96HlXwAA
+AABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-1f746ee8-2fbf-490f-b851-d78a4e2539b0@mhtml.blink
+
+@charset "utf-8";
+
+#course_families_23_data table { padding: 0px; background-image: url("/imag=
+es/PNG/ac6-carrousel-background.png"); background-size: 100% 100%; margin-b=
+ottom: 6px; }
+
+#course_families_23_data table tbody { padding: 0px; margin: 0px; border: 0=
+px; outline: 0px; }
+
+#course_families_23_data table tbody tr { background-image: none; backgroun=
+d-repeat: no-repeat; padding: 0px; margin: 0px; border: 0px; outline: 0px; =
+}
+
+#course_families_23_data table tbody tr td { padding: 0px; margin: 0px; bor=
+der: 0px; outline: 0px; vertical-align: baseline; }
+
+#course_families_23 { padding: 0px; margin: 0px; border: 0px; outline: 0px;=
+ color: rgb(48, 48, 48); text-align: left; }
+
+#course_families_23 ul { margin: 0px; padding-left: 29px; list-style: url("=
+/generated/PNG/fullbullet-12-0bb472.png"); }
+
+#course_families_23 li a { display: block; padding: 2px; text-decoration: n=
+one; background-color: transparent; background-repeat: no-repeat; backgroun=
+d-image: none; color: rgb(48, 48, 48); }
+
+#course_families_23 span a { display: block; padding: 1px; text-decoration:=
+ none; background-color: transparent; background-repeat: no-repeat; backgro=
+und-image: none; color: rgb(48, 48, 48); }
+
+#course_families_23 a:link { color: rgb(48, 48, 48); }
+
+#course_families_23 a:hover { color: rgb(0, 0, 0); }
+
+#course_families_23 #PROC_1_row { padding: 0px; margin: 0px; border: 0px; o=
+utline: 0px; background-image: url("/generated/PNG/vertgradiantfiller-30-85=
+d9b8-08905b.png"); background-repeat: repeat-x; }
+
+#course_families_23 #PROC_1_row td { border: 0px; background-image: url("/g=
+enerated/PNG/downtriangle-10-08905b.png"); background-repeat: no-repeat; ba=
+ckground-position: 5px 30px; display: block; margin: 0px; padding: 0px; out=
+line: 0px; }
+
+#course_families_23 #PROC_1_row td a { display: block; text-decoration: non=
+e; vertical-align: middle; margin: 0px; outline: 0px; padding: 4px 6px 0px;=
+ height: 40px; color: rgb(255, 255, 255); }
+
+#course_families_23 td#course_families_32_data { padding: 8px; position: re=
+lative; display: block; }
+
+#course_families_23 #course_families_32_data span a { text-align: right; }
+
+#course_families_23 #course_families_32_data a.carrousel_calendar { positio=
+n: absolute; top: 33%; right: 36%; text-decoration: none; text-shadow: whit=
+e 1px 1px 2px; font-size: 7pt; font-weight: normal; }
+
+#course_families_23 #course_families_32_data a.carrousel_seeall { position:=
+ absolute; top: 29%; right: 7%; text-decoration: none; text-shadow: white 1=
+px 1px 2px; font-size: 7pt; font-weight: normal; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/fullbullet-12-0bb472.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAQMAAABM0KYCAAAABlBMVEUAAAALtHKXkC2CAAAAAXRS
+TlMAQObYZgAAABxJREFUCNdj4G9gsH/AUP8BhP7/QEEQQaAsfwMAbzoS7N2fO1MAAAAASUVORK5C
+YII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/vertgradiantfiller-30-85d9b8-08905b.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAM0lEQVQI12NovbmD6fffP0x//v1l
++vP3Lwr9G8aHi/1h+vP3L9NvZLXY1MPMg8r9xjQbAHqyWDcI9jpQAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/downtriangle-10-08905b.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAKAQMAAACHcEzfAAAABlBMVEUAAAAIkFsmjOoRAAAAAXRS
+TlMAQObYZgAAACRJREFUCNdj+P+foR6I/jHY/2GQ/8HAD0QfGNgfMDAfYGBuAADKegt/96HlXwAA
+AABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-f79908b0-4a88-4b2e-a471-31dd2272eb0b@mhtml.blink
+
+@charset "utf-8";
+
+#course_families_33_data table { padding: 0px; background-image: url("/imag=
+es/PNG/ac6-carrousel-background.png"); background-size: 100% 100%; margin-b=
+ottom: 6px; }
+
+#course_families_33_data table tbody { padding: 0px; margin: 0px; border: 0=
+px; outline: 0px; }
+
+#course_families_33_data table tbody tr { background-image: none; backgroun=
+d-repeat: no-repeat; padding: 0px; margin: 0px; border: 0px; outline: 0px; =
+}
+
+#course_families_33_data table tbody tr td { padding: 0px; margin: 0px; bor=
+der: 0px; outline: 0px; vertical-align: baseline; }
+
+#course_families_33 { padding: 0px; margin: 0px; border: 0px; outline: 0px;=
+ color: rgb(48, 48, 48); text-align: left; }
+
+#course_families_33 ul { margin: 0px; padding-left: 29px; list-style: url("=
+/generated/PNG/fullbullet-12-475bc3.png"); }
+
+#course_families_33 li a { display: block; padding: 2px; text-decoration: n=
+one; background-color: transparent; background-repeat: no-repeat; backgroun=
+d-image: none; color: rgb(48, 48, 48); }
+
+#course_families_33 span a { display: block; padding: 1px; text-decoration:=
+ none; background-color: transparent; background-repeat: no-repeat; backgro=
+und-image: none; color: rgb(48, 48, 48); }
+
+#course_families_33 a:link { color: rgb(48, 48, 48); }
+
+#course_families_33 a:hover { color: rgb(0, 0, 0); }
+
+#course_families_33 #COMM_1_row { padding: 0px; margin: 0px; border: 0px; o=
+utline: 0px; background-image: url("/generated/PNG/vertgradiantfiller-30-a3=
+ade1-38489c.png"); background-repeat: repeat-x; }
+
+#course_families_33 #COMM_1_row td { border: 0px; background-image: url("/g=
+enerated/PNG/downtriangle-10-38489c.png"); background-repeat: no-repeat; ba=
+ckground-position: 5px 30px; display: block; margin: 0px; padding: 0px; out=
+line: 0px; }
+
+#course_families_33 #COMM_1_row td a { display: block; text-decoration: non=
+e; vertical-align: middle; margin: 0px; outline: 0px; padding: 4px 6px 0px;=
+ height: 40px; color: rgb(255, 255, 255); }
+
+#course_families_33 td#course_families_44_data { padding: 8px; position: re=
+lative; display: block; }
+
+#course_families_33 #course_families_44_data span a { text-align: right; }
+
+#course_families_33 #course_families_44_data a.carrousel_calendar { positio=
+n: absolute; top: 33%; right: 36%; text-decoration: none; text-shadow: whit=
+e 1px 1px 2px; font-size: 7pt; font-weight: normal; }
+
+#course_families_33 #course_families_44_data a.carrousel_seeall { position:=
+ absolute; top: 29%; right: 7%; text-decoration: none; text-shadow: white 1=
+px 1px 2px; font-size: 7pt; font-weight: normal; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/fullbullet-12-475bc3.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA8AAAANAQMAAABM0KYCAAAABlBMVEUAAABHW8OLkDUfAAAAAXRS
+TlMAQObYZgAAABxJREFUCNdj4G9gsH/AUP8BhP7/QEEQQaAsfwMAbzoS7N2fO1MAAAAASUVORK5C
+YII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/vertgradiantfiller-30-a3ade1-38489c.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAOklEQVQI11WNsQ2AQBDDUPbfgpqh
+2MOOvrgroLNiWbnu5w0YbKRBow00OvtwA+ts3ObLv451y9O5Hz2KHVhf95KIUAAAAABJRU5ErkJg
+gg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/downtriangle-10-38489c.png
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAAKAQMAAACHcEzfAAAABlBMVEUAAAA4SJxOBheFAAAAAXRS
+TlMAQObYZgAAACRJREFUCNdj+P+foR6I/jHY/2GQ/8HAD0QfGNgfMDAfYGBuAADKegt/96HlXwAA
+AABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-4108d7c5-185f-4dbb-b715-278775ba800f@mhtml.blink
+
+@charset "utf-8";
+
+#navbar_1 { margin: 0px; padding: 0px; border: 0px; width: 19ch; line-heigh=
+t: 20px; }
+
+#navbar_1 ul { list-style-type: none; margin: 2px; padding: 0px; }
+
+#navbar_1 li { margin: 2px; padding: 0px; height: 20px; color: rgb(48, 48, =
+48); font-size: 11pt; font-weight: bold; }
+
+#navbar_1 .active { border-color: rgb(0, 0, 255); color: rgb(96, 96, 96); }
+
+#navbar_1 a { display: block; margin: 0px; font-size: 11pt; text-decoration=
+: none; text-align: right; color: rgb(0, 0, 0); }
+
+#navbar_1 .active a { color: rgb(0, 0, 0); }
+
+#navbar_1 a:hover { color: rgb(136, 204, 225); }
+
+#navbar_1 #navbar_1_0 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(53, 170, 205); color: rgb(0, 0, 0); background-color: rgb(53, 170, =
+205); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_0 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-35aacd.png"); }
+
+#navbar_1 #navbar_1_0 a:hover { color: rgb(53, 170, 205); background-color:=
+ rgb(255, 255, 255); }
+
+#navbar_1 #navbar_1_1 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(106, 0, 0); color: rgb(255, 255, 255); background-color: rgb(106, 0=
+, 0); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_1 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-6a0000.png"); }
+
+#navbar_1 #navbar_1_1 a:hover { color: rgb(106, 0, 0); background-color: rg=
+b(255, 255, 255); }
+
+#navbar_1 #navbar_1_2 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(136, 204, 225); color: rgb(0, 0, 0); background-color: rgb(136, 204=
+, 225); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_2 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-88cce1.png"); }
+
+#navbar_1 #navbar_1_2 a:hover { color: rgb(136, 204, 225); background-color=
+: rgb(255, 255, 255); }
+
+#navbar_1 #navbar_1_3 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(136, 204, 225); color: rgb(0, 0, 0); background-color: rgb(136, 204=
+, 225); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_3 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-88cce1.png"); }
+
+#navbar_1 #navbar_1_3 a:hover { color: rgb(136, 204, 225); background-color=
+: rgb(255, 255, 255); }
+
+#navbar_1 #navbar_1_4 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(136, 204, 225); color: rgb(0, 0, 0); background-color: rgb(136, 204=
+, 225); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_4 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-88cce1.png"); }
+
+#navbar_1 #navbar_1_4 a:hover { color: rgb(136, 204, 225); background-color=
+: rgb(255, 255, 255); }
+
+#navbar_1 #navbar_1_5 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(136, 204, 225); color: rgb(0, 0, 0); background-color: rgb(136, 204=
+, 225); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_5 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-88cce1.png"); }
+
+#navbar_1 #navbar_1_5 a:hover { color: rgb(136, 204, 225); background-color=
+: rgb(255, 255, 255); }
+
+#navbar_1 #navbar_1_6 a { height: 14px; padding-bottom: 4px; border: 2px so=
+lid rgb(177, 120, 0); color: rgb(255, 255, 255); background-color: rgb(177,=
+ 120, 0); margin-top: 7px; margin-bottom: 7px; width: 12ch; }
+
+#navbar_1 #navbar_1_6 a::after { position: relative; left: 10px; top: 1px; =
+content: url("/generated/PNG/righttriangle-15-b17800.png"); }
+
+#navbar_1 #navbar_1_6 a:hover { color: rgb(177, 120, 0); background-color: =
+rgb(255, 255, 255); }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-15-35aacd.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQAQMAAAARRKw+AAAABlBMVEUAAAA1qs02+nTaAAAAAXRS
+TlMAQObYZgAAACJJREFUCNdjaGA4wPCA4QPDH4Z/DP/B8B+Q/QMo8gAo0wAA4NkOCrWz6dYAAAAA
+SUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-15-6a0000.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQAQMAAAARRKw+AAAABlBMVEUAAABqAADgJ/c5AAAAAXRS
+TlMAQObYZgAAACJJREFUCNdjaGA4wPCA4QPDH4Z/DP/B8B+Q/QMo8gAo0wAA4NkOCrWz6dYAAAAA
+SUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-15-88cce1.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQAQMAAAARRKw+AAAABlBMVEUAAACIzOH6A7lbAAAAAXRS
+TlMAQObYZgAAACJJREFUCNdjaGA4wPCA4QPDH4Z/DP/B8B+Q/QMo8gAo0wAA4NkOCrWz6dYAAAAA
+SUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-15-b17800.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAgAAAAQAQMAAAARRKw+AAAABlBMVEUAAACxeACGHd4WAAAAAXRS
+TlMAQObYZgAAACJJREFUCNdjaGA4wPCA4QPDH4Z/DP/B8B+Q/QMo8gAo0wAA4NkOCrWz6dYAAAAA
+SUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-c43b96e0-e68d-4c6c-8e2a-9244705fec0f@mhtml.blink
+
+@charset "utf-8";
+
+#middle_frame { margin: 0px; padding: 0px; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bc74ef15-9a82-4c6e-bba3-36401599d95e@mhtml.blink
+
+@charset "utf-8";
+
+#navbar_2 { margin: 0px; padding: 0px; border-width: 0px 0px 2px; border-to=
+p-style: initial; border-right-style: initial; border-left-style: initial; =
+border-top-color: initial; border-right-color: initial; border-left-color: =
+initial; border-image: initial; border-bottom-style: solid; border-bottom-c=
+olor: rgb(187, 146, 3); background-color: rgb(236, 236, 236); line-height: =
+31px; text-align: center; }
+
+#navbar_2 tr { margin: 0px; text-align: center; }
+
+#navbar_2 td { line-height: 31px; }
+
+#navbar_2 span { margin: 0px; padding: 0px; text-align: center; line-height=
+: 31px; display: inline-block; }
+
+#navbar_2 a { padding: 3px; color: black; text-decoration: none; font-size:=
+ 11pt; font-weight: bold; }
+
+#navbar_2 .active a { color: rgb(96, 96, 96); }
+
+#navbar_2 a:hover { color: rgb(187, 146, 3); }
+
+#navbar_2 #navbar_2_0 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_0 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_0 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_1 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_1 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_1 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_2 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_2 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_2 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_3 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_3 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_3 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_4 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_4 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_4 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_5 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_5 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_5 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_6 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_6 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_6 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_7 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_7 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_7 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_8 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_8 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_8 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_9 a { height: auto; background-image: url("/generated/P=
+NG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: repe=
+at-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_9 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_9 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_10 a { height: auto; background-image: url("/generated/=
+PNG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: rep=
+eat-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_10 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_10 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_11 a { height: auto; background-image: url("/generated/=
+PNG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: rep=
+eat-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_11 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_11 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_12 a { height: auto; background-image: url("/generated/=
+PNG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: rep=
+eat-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_12 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_12 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_13 a { height: auto; background-image: url("/generated/=
+PNG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: rep=
+eat-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_13 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_13 a:hover { background-color: white; }
+
+#navbar_2 #navbar_2_14 a { height: auto; background-image: url("/generated/=
+PNG/horizblurredborderfiller-25-ececec-bb9203.png"); background-repeat: rep=
+eat-x; padding-left: 3px; padding-right: 3px; padding-bottom: 5px; }
+
+#navbar_2 #navbar_2_14 img { height: auto; position: relative; top: 7px; }
+
+#navbar_2 #navbar_2_14 a:hover { background-color: white; }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/horizblurredborderfiller-25-ececec-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAAEAAAAZBAMAAAACvllMAAAAFVBMVEXs7OzGpzrRu27bzZ3j28Ho
+5tzr6+qb5f3SAAAAH0lEQVQI12MQYFBgMGBwYAhgSGDADRKA8g5AdQoMAgBB0gKhmPiY1AAAAABJ
+RU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-b8eea604-1a1a-4c72-99eb-f6bc5d499c13@mhtml.blink
+
+@charset "utf-8";
+
+.structure a { font-family: Verdana, Arial, Helvetica, sans-serif; font-siz=
+e: larger; text-decoration: none; color: rgb(0, 171, 226); }
+
+.structure span { font-family: Verdana, Arial, Helvetica, sans-serif; font-=
+size: larger; }
+
+.structure a:hover { color: rgb(0, 171, 226); }
+
+.structure a:visited { color: rgb(0, 171, 226); }
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/FR_flag.png
+
+iVBORw0KGgoAAAANSUhEUgAAAC0AAAAeCAMAAACPKmerAAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACBUExURcYfQfnm6mZ7qzVVoDxcpr8sSroA
+G8EAKM/W6D5cpElhmMYAKT1eqq0cObq6uq8vScMAHc0fQ6wcMrrCwLmqrcYsS0phmT5grvrn6zdZ
+p0Vel8LAvEBgq8kAKrRDWqoNLdDY656jsjtWkmd9sGh+sHWEqjxXk3KCpjtao74AJ/////0BtsMA
+AABVSURBVHja7NQlAsBAEATBDTMzM/7/gZGTyFMxW7p107HbUOdT40OSBrEHQ09r4ULVjvdbGYUO
+dBnJ6gmKZX5qifQLDI1rrrnm+qd6ETrbNgtc8xFgAB9WpFyRibpjAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/USA_flag.png
+
+iVBORw0KGgoAAAANSUhEUgAAADoAAAAeCAMAAABKWP06AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAACWUExURc4/XY4AHe6/yd5/k52s0Z5AU8DA
+wEdkqM7V6PL0+V1tkV94tNrg7VNurmyDuo6WqKm21pCiy+bq83iNv7XB3D8/P8HL4oSXxVtDhICA
+gK+AiX9/f3oPJV9TkWcfLq4fPaOAh2dzrFMvN9DQ0G5igl1skWoAFYeLlIdATqertLOQl62hwWNj
+nztao////74AJwAAAAAAACi/8QUAAAAxdFJOU///////////////////////////////////////
+/////////////////////////wAfmk4hAAABQUlEQVR42qRUQW6EMAx0CWpAqaNCpEbqJUJ7W9XL
+/3/XcWC5tEuiMHGUuRh7xhYUrGNGPG9+figVQbSEKDI54V7Eb9T29m0tIpGz1jm2HsVwd2pNZ4pB
+TiR4FGNx8aDy8ShipsWHreEJDW/UTvxtyiDH2jKL9VZAJVNZa7QuIhFd9kiaDippTWehl2ATOoQ5
+Wpwz1eK3cS6hI7dPJGsFjUr53KZxs2l3OKLhcFChMvJwvMsmOaQ5pTCqaiWWgE57L/YT3wCdQHsM
+h8xZ5EfdYR0PbqaidMiCXsZ4aIXIyNkopbpN3Vw6cBhriwzIQ5Kq3WhSMaexYq6aqs4EbJN/0lRj
+0/vwF19DVwG6PRoxk2kGUcX0X2i9gAtab9iNFiCVkp6GQMdrs033mv/m/z/TCzbdO9N0ULVZK2xK
+bVjpV4ABAPWarM3OQiASAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/UK_flag.png
+
+iVBORw0KGgoAAAANSUhEUgAAADwAAAAeCAMAAABHRo19AAAABGdBTUEAAK/INwWK6QAAABl0RVh0
+U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAMAUExURert9b8CKfHL039/f9BKZvbd4s08
+Wt17kPjl6v35+cQaPdNRbeSVpdVbdPDFzq262bsAHO25xGuCue/Cy/z197wAIXyRwuPn8sAILaSy
+1PL0+cgoSUllquCIm8syUk1pq8ITM9zh78nR5sYjQtTa6+adrTlYoroAG2V9tnOJve3w9/nq7TZW
+odhlfLwAH+SZqffh5eeisFBsrcouTvru8P78/fz8/vf4++Hl8ZWlzdtyiMENMOqturnE3h0tUbC8
+2r3H4D5cpMLM4oGVxJuq0Pvw8nSKvjRUoPDy+CtMm/XW3NlrgrXA3L0AJOils4yeyS1Onfj5/N+A
+lENgp4KGhNvg7v32+OuxvUZkqIWYxtdhes3V6Fp0scUiPr4AJqi11jJSn9pwhtfd7FhysJ6t0TBR
+nvr7/eagr/zy9MMVN7kAFvT2+vbd48PN4zhXoey2wb/J4ZChy9x5jitMnPXa4PXY3oqdyMgxSVx2
+speozl8AE1ZxsPrs784/XcUdP/PS2cMZNrgAFPry9Pz8/emptu6+yTxao46gysYoQ89EYdRWcMw4
+V2+GvOWcq+/CzVRvr/n6/P79/r8IKy5PnTpao9x1i/TU2vfi5zBSnubq89DX6V5aaL0AJ194sz9d
+pfTS2t3j78XO48gmSDdWof3+/naLv8clR4eax3iNwNZedyVHme6/yttzifjk6aq315GiyzxbpDVV
+oPnn6248RqCv0vTV3PPU2jRUn6u42OXp8ylLm78FKtx3jL4CJ7gAEskqS7YADAEBAe69yPb3+ztZ
+oo2fyv7+/jpZozpZov7+/74AJf/+/vv8/TNUnytNnP7///77+//+//T1+jNUoPjj6DNTn7sAH+fr
+9LoAGI6fyt/k8DtZo+KPoJyr0ZSkzfP2+eWbqzpYov///ujs9DdYovP1+cAQMDxcozVWoDRTn+28
+x/LP1jtapDRToDhYoR9Clvv29rcAEGwyPoibx2QUJO2+yckuS153syJFmDlEXtx2i78RKztao///
+/74AJ////8I9ThUAAAEAdFJOU///////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////wBT9wclAAAEZ0lE
+QVR42qSUX0xbVRzHjw0Fy6AgiIhjdpvgCqaMXEmWKE1ZFgIdnQLXhK5rEcHb8CfDPxkww7+7B5F/
+cV1vszWEdpekD9JkUTaipGTuBkk2R3PbSDANQUnu6hwlgfHgfFhv4zn33kKd8qKf89Dmd36f+z3t
+PeeATxsKms/JjlacalG1mPdocWmnRnuS+2+NRM69hyVOYFhRxdHjScm3ktaAnawvDfqDQcXHWZ3E
+In7SLbJlfBDsuTQ/eb/tef94kzvOyY0Nl3Zdlm5nnmqu20CahbF/cJXjgpxCq97Qdw4tCnyH04o7
+xybvlxyWB9TUogRF9erWZaYQY9dscpwHVHy7ZmHma+B3jrMZ1IR+Ky4HD4YmJzPb5EtqKopK9yh9
+b0b15nQmUj0c16EDRpdB0nmon9C5iNqtocXoMr4Kk2ONMJlX10L5HsFic8UyE1RNMg6pLhyoKErU
+SzQyHtKh+5OqfX2oCqf9d0KxmJR8l9BjecWDphKYKqlOKh9gjrDTqdYiPcekRPpPGRep2iYxOZYp
+JBOsKg9c18TVOoOwPhWUHY4w61RXXFgjmcx0QX9lzuyd2Ut2befPPrhac5ux10CVt2rVBNs5FP1G
+BfKrqqqWl51eH1z8IaiPvqCAevWsi44ne4rO0kr4W0uE1N8MLtZLzEBrxghacBH3o/D4eXk9GSI1
+siWkr1eKyacDQJ5iCT0UVOtUkWPFLSmXQS5N06u0wMQRP9fXNags5QVeFJLb5DzXJ9vsugEXzAc8
+sEnqplebQUDEg/D7g4IWVCBuHhSWPRhUoD3AXxGKQp/kKMCB5DFxCCQnjLGXz8RiZ+Z7ksf2GUmA
+vNQuEkK0JxCCbizWeOxvxcR5EgzE/iuTqf9DjqWC1Jx9aRRa9p+Hy268vR/i8/edfi4VyLIT+DwC
+WVBCsiMLDQOZMPftwgVUjGSLxcTuP+LvGcJ76qwecX8sVcJN9uObwg67KZYUrcKH1Rp/ywGPDRS5
+JC5ivV/QcLosbYy01Mj5QBnaYT8fPh1A0pXsdAs5Ul5dkYW1xI0sYKylEPptr3mumOdbj/cwzHBa
+2epnuY/Fg3HBMzuF9NJDrzE7I+VT3eFtr6AQOMCi0ehQJ7ui1trg2t55lWGeFAbXf8Gd0qlqkwfM
+1EsFSK9MG2a+PxAp+BX3VSELnmekEmoDVIPl/Tsw9fF6nor14bRt9ybxsu5Tgl6G9NFIQTfuW0bn
+GUOq7gT8kxpGdhjLWmtdHsZSd6U7LCbdYSs+99nmXT39y4lut/6RCuCES/cDrH6U1M6Q9W/Y3sdY
+ZzgafeYOi0ZX9PieHppWFnS7fwdFug6e57JH25mnKTesGZdZp8MBe59JRqz48HePwF6ubA3qJtnE
+16AOPkw5ncPY35L7DWaKCgvuP5MRTXqj8Db5PqRrlIDnZBo7vJ+6rFp4aYaltn9LlvRPVlE60h+C
+aynDJLy2POfHjbgK2yW/N9ffTw6kkk9Kua/wvTpmxM0fAmHxhUl/CTAATPjtXkUYnd0AAAAASUVO
+RK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/logo_ac6-training.png
+
+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
+z9qHh0rSAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/circledplus-20-6ca3b4.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQMAAACT2TfVAAAABlBMVEUAAABso7StjBM0AAAAAXRS
+TlMAQObYZgAAAEJJREFUCNdjYPzDwMDOzsDAw9jAIMFwgMGAIQEIDRgcCgQYDhRIMDQUcDA0/4Ng
+EBuEQeIgeZA6kHqQPpB+kDlA8wDVgBEr+n6bEwAAAABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/plus-20-A0A0A0.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQMAAACT2TfVAAAABlBMVEUAAACgoKAEzvuuAAAAAXRS
+TlMAQObYZgAAABdJREFUCNdjYMAFChCY+R8EI4uBMXYAANeSBRPVgYfvAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/lefttriangle-40-6ca3b4.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAApAQMAAADgYfADAAAABlBMVEUAAABso7StjBM0AAAAAXRS
+TlMAQObYZgAAAFNJREFUCNctziEOACEMRNEhCHC167gGrtdax7Vx7Gcz4qVJ03YqqUt6MPFiSwUV
+DYGBxMLZKqhoCAwkFo5ruh+eq967+/+d9N1wTnXuzf//mP6rf6BcN2NA1599AAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/lefttriangle-40-A0A0A0.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAApAQMAAADgYfADAAAABlBMVEUAAACgoKAEzvuuAAAAAXRS
+TlMAQObYZgAAAFNJREFUCNctziEOACEMRNEhCHC167gGrtdax7Vx7Gcz4qVJ03YqqUt6MPFiSwUV
+DYGBxMLZKqhoCAwkFo5ruh+eq967+/+d9N1wTnXuzf//mP6rf6BcN2NA1599AAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/circledminus-20-6ca3b4.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQMAAACT2TfVAAAABlBMVEUAAABso7StjBM0AAAAAXRS
+TlMAQObYZgAAAEBJREFUCNdjYPzDwMDOzsDAw9jAIMFwgMGAIQEIDRgcGASAPAmGBgYOhuZ/CAzi
+g8RB8iB1IPUgfSD9IHOA5gEAfMkPHH+vNmAAAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/minus-20-A0A0A0.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAAVAQMAAACT2TfVAAAABlBMVEUAAACgoKAEzvuuAAAAAXRS
+TlMAQObYZgAAABFJREFUCNdjYCACMP9DYCIAAH7bAwT+pYgRAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-40-6ca3b4.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAApAQMAAADgYfADAAAABlBMVEUAAABso7StjBM0AAAAAXRS
+TlMAQObYZgAAAE1JREFUCNdNzjESACEIQ1GOztE8CkegpHCM39kUW7zGRCAyIhYKjcHGgR4KoiBC
+EYpQhNKTWCg05qf9vtzzv+057bn57TneO76jfBfxBeqfRylBI33kAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/righttriangle-40-A0A0A0.png
+
+iVBORw0KGgoAAAANSUhEUgAAABUAAAApAQMAAADgYfADAAAABlBMVEUAAACgoKAEzvuuAAAAAXRS
+TlMAQObYZgAAAE1JREFUCNdNzjESACEIQ1GOztE8CkegpHCM39kUW7zGRCAyIhYKjcHGgR4KoiBC
+EYpQhNKTWCg05qf9vtzzv+057bn57TneO76jfBfxBeqfRylBI33kAAAAAElFTkSuQmCC
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/leftblurredarc-25-ececec-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZBAMAAAAYgrnCAAAAGFBMVEX////r6+ro5tzj28HbzZ3R
+u27Gpzrs7OzdRHtwAAAAAXRSTlMAQObYZgAAAF5JREFUCNdjYACBtAQIFRoAoVwcgBRbqIuzAZBO
+DTE2UgBxnY0UBYB0iJGiYAFQ2NlIsBxMK4oDabYQZ8VyMA0UhtDiOGioPEQ9TD/cPJj5MPtg9sPd
+A3Mf3L0g9wMAIMMkgt9FFRkAAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/generated/PNG/rightblurredarc-25-ececec-bb9203.png
+
+iVBORw0KGgoAAAANSUhEUgAAAA0AAAAZBAMAAAAYgrnCAAAAGFBMVEX////r6+ro5tzj28HbzZ3R
+u27Gpzrs7OzdRHtwAAAAAXRSTlMAQObYZgAAAFtJREFUCNdjSEtjAIPQUAjDxQXCMDZxCU0A0krK
+xq5hQFpQSNkEJFAOZLiC6HJBZZMwEF0oBKHLhUyAEuUgCQhdiIOGyUPVw/RDzYOaD7MPZj/MPTD3
+wdwLdT8A82Qoi4Vc8cQAAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/book_button.png
+
+iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJ
+bWFnZVJlYWR5ccllPAAAAyBpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdp
+bj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6
+eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEz
+NDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJo
+dHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlw
+dGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAv
+IiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RS
+ZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpD
+cmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBXaW5kb3dzIiB4bXBNTTpJbnN0YW5jZUlE
+PSJ4bXAuaWlkOkVEQ0YwNkIzQkI0RjExRTNCQkQ1RDg4OTA1MkUyNDYwIiB4bXBNTTpEb2N1bWVu
+dElEPSJ4bXAuZGlkOkVEQ0YwNkI0QkI0RjExRTNCQkQ1RDg4OTA1MkUyNDYwIj4gPHhtcE1NOkRl
+cml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6RURDRjA2QjFCQjRGMTFFM0JCRDVE
+ODg5MDUyRTI0NjAiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6RURDRjA2QjJCQjRGMTFFM0JC
+RDVEODg5MDUyRTI0NjAiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1l
+dGE+IDw/eHBhY2tldCBlbmQ9InIiPz6VUdpOAAADAFBMVEX+//8AAACAgIDAwMD/AAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAACgMgZ4AAAABnRSTlP//////wCzv6S/AAAApklEQVR42qST4Q7EIAiDDdP3f+QeR13kUPDH
+dVmyjC+tDNbGRU1vABVg5ZxpWmEtQQgIkcpBSMApRkhIwR4hPxmTVuBxEd8HXhFgROrgIjIH2frM
+Io4Ove6iZ12g7KJvwKELvMD7ieHzHaAiswCbm71onJwxbpqzCXDl7MS0kamV2VasHuYJ2+CBsLxH
+YGzrUgAkKmDg5jCVA930D3CL8H93qY8AAwB+sNWa8lVY3wAAAABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/pdf_button.png
+
+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
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/email_button.png
+
+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
+9+70jwEA340GQ5h7U/sAAAAASUVORK5CYII=
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/print_button.png
+
+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
+s9b8VpQ4lAAAAABJRU5ErkJggg==
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/grand_bonhomme_torse.png
+
+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
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/gif
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/calendrier.gif
+
+R0lGODlhHwAZALMIAAAAAIAAAACAAICAAAAAgIAAgACAgICAgMDAwP8AAAD/AP//AAAA//8A/wD/
+/////yH5BAEAAAgALAAAAAAfABkAAASUEIFJ65Q2A8Q5eGAoPtNoHpv3mSLKtmglJsnohnQdHjGF
+07bVIwcE8Sw/HegjAQGLj6PsJ5pSjb3SdSd0QqW+rbGbgyHFUWHZbCW21G7sebgeJ7/ZLuv2iub7
+doBgWhlLD00kZ4N6I1Z7f4lWfIV+cy98l5B9mI+We4w2eTyjpKMApaiLp6mkq6yqGrGys7S1trcZ
+EQA7
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.ac6-training.com/images/PNG/logo_ac6.png
+
+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
+
+------MultipartBoundary--mWE3rkLqIJDQWHy3Kz32tsedXl6y8ABuhoTruJ2pkh------
