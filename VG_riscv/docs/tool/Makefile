@@ -2,7 +2,7 @@
 # Makefile for riscv-tests/isa
 #-----------------------------------------------------------------------
 
-XLEN ?= 64 
+XLEN ?= 64
 
 src_dir := .
 
@@ -15,7 +15,7 @@ include $(src_dir)/rv64uf/Makefrag
 include $(src_dir)/rv64ud/Makefrag
 include $(src_dir)/rv64si/Makefrag
 include $(src_dir)/rv64mi/Makefrag
-else
+endif
 include $(src_dir)/rv32ui/Makefrag
 include $(src_dir)/rv32uc/Makefrag
 include $(src_dir)/rv32um/Makefrag
@@ -24,7 +24,6 @@ include $(src_dir)/rv32uf/Makefrag
 include $(src_dir)/rv32ud/Makefrag
 include $(src_dir)/rv32si/Makefrag
 include $(src_dir)/rv32mi/Makefrag
-endif
 
 default: all
 
@@ -76,6 +75,14 @@ tests += $$($(1)_tests)
 
 endef
 
+$(eval $(call compile_template,rv32ui,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32uc,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32um,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32ua,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32uf,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32ud,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32si,-march=rv32g -mabi=ilp32))
+$(eval $(call compile_template,rv32mi,-march=rv32g -mabi=ilp32))
 ifeq ($(XLEN),64)
 $(eval $(call compile_template,rv64ui,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64uc,-march=rv64g -mabi=lp64))
@@ -85,15 +92,6 @@ $(eval $(call compile_template,rv64uf,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64ud,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64si,-march=rv64g -mabi=lp64))
 $(eval $(call compile_template,rv64mi,-march=rv64g -mabi=lp64))
-else
-$(eval $(call compile_template,rv32ui,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32uc,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32um,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32ua,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32uf,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32ud,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32si,-march=rv32g -mabi=ilp32))
-$(eval $(call compile_template,rv32mi,-march=rv32g -mabi=ilp32))
 endif
 
 tests_dump = $(addsuffix .dump, $(tests))
@@ -108,11 +106,7 @@ junk += $(tests) $(tests_dump) $(tests_hex) $(tests_out) $(tests32_out)
 #------------------------------------------------------------
 # Default
 
-all: $(tests_dump) 
-
-view: 
-	@echo "$(XLEN)"
-
+all: $(tests_dump) $(tests_hex)
 hex: $(tests_hex)
 
 #------------------------------------------------------------
