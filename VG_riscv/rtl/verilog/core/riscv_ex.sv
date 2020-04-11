@@ -69,7 +69,8 @@ module riscv_ex #(
                                   mem_exception,
                                   wb_exception,
   output reg [EXCEPTION_SIZE-1:0] ex_exception,
-
+  output reg [XLEN          -1:0] ex_pc_badaddr,
+  
   //from ID
   input                           id_userf_opA,
                                   id_userf_opB,
@@ -223,6 +224,7 @@ module riscv_ex #(
   bu (
     //Branch unit handles exceptions and relays ID-exceptions
     .bu_exception ( ex_exception ),
+    .bu_nxt_pc_badaddr  (ex_pc_badaddr),
     .*
   );
 

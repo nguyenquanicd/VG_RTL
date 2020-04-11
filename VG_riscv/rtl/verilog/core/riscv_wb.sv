@@ -49,6 +49,7 @@ module riscv_wb #(
   output logic                      wb_bubble_o,
 
   input  logic [EXCEPTION_SIZE-1:0] mem_exception_i,
+  input  logic [XLEN          -1:0] mem_pc_badaddr,
   output logic [EXCEPTION_SIZE-1:0] wb_exception_o,
   output logic [XLEN          -1:0] wb_badaddr_o,
 
@@ -155,6 +156,8 @@ module riscv_wb #(
              exception[CAUSE_LOAD_PAGE_FAULT   ] ||
              exception[CAUSE_STORE_PAGE_FAULT  ] )
       wb_badaddr_o <= mem_memadr_i;
+    else if (exception[CAUSE_MISALIGNED_INSTRUCTION]) //mis-align fetch
+      wb_badaddr_o <= mem_pc_badaddr;
     else
       wb_badaddr_o <= mem_pc_i;
 

@@ -675,6 +675,8 @@ module riscv_id #(
     casex (if_instr)
        FENCE  : illegal_alu_instr = 1'b0;
        FENCE_I: illegal_alu_instr = 1'b0;
+       SFENCE_VM  : illegal_alu_instr = 1'b0;
+       SFENCE_VMA : illegal_alu_instr = 1'b0;
        ECALL  : illegal_alu_instr = 1'b0;
        EBREAK : illegal_alu_instr = 1'b0;
        URET   : illegal_alu_instr = ~has_u;
