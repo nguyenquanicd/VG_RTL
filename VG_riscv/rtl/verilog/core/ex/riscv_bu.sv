@@ -63,6 +63,7 @@ module riscv_bu #(
                                   mem_exception,
                                   wb_exception,
   output reg [EXCEPTION_SIZE-1:0] bu_exception,
+  output reg [XLEN          -1:0] bu_nxt_pc_badaddr,
 
   //from ID
   input      [XLEN          -1:0] opA,
@@ -131,8 +132,15 @@ module riscv_bu #(
             bu_exception <= id_exception;
 
             casex ( {id_bubble,opcode} )
-              {1'b0,OPC_JALR  } : bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION] | has_rvc ? nxt_pc[0] : |nxt_pc[1:0];
-              {1'b0,OPC_BRANCH} : bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION] | has_rvc ? nxt_pc[0] : |nxt_pc[1:0];
+              //The JAL and JALR instructions will generate a misaligned instruction fetch exception if the target
+              //address is not aligned to a four-byte boundary.
+              //(page 16, User-Level ISA)
+              {1'b0,OPC_JALR  }, {1'b0,OPC_JAL   }, {1'b0,OPC_BRANCH} : begin
+                bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION] | has_rvc ? nxt_pc[0] : |nxt_pc[1:0];
+                bu_nxt_pc_badaddr <= nxt_pc;
+              end
+              //{1'b0,OPC_JAL   } : bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION] | has_rvc ? nxt_pc[0] : |nxt_pc[1:0];
+              //{1'b0,OPC_BRANCH} : bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION] | has_rvc ? nxt_pc[0] : |nxt_pc[1:0];
               default           : bu_exception[CAUSE_MISALIGNED_INSTRUCTION] <= id_exception[CAUSE_MISALIGNED_INSTRUCTION];
             endcase
         end

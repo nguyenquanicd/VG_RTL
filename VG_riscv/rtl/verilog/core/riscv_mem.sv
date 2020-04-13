@@ -63,6 +63,8 @@ module riscv_mem #(
                                   wb_exception,
   output reg [EXCEPTION_SIZE-1:0] mem_exception,
  
+  input      [XLEN          -1:0] ex_pc_badaddr,
+  output reg [XLEN          -1:0] mem_pc_badaddr,
 
 
   //From EX
@@ -115,7 +117,10 @@ module riscv_mem #(
     if      (!rstn    ) mem_exception <= 'h0;
     else if (|mem_exception ||
              |wb_exception) mem_exception <= 'h0;
-    else if (!wb_stall) mem_exception <= ex_exception;
+    else if (!wb_stall) begin 
+        mem_exception <= ex_exception;
+        mem_pc_badaddr <= ex_pc_badaddr;
+    end
 
 endmodule : riscv_mem
 

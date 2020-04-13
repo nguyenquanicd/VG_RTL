@@ -178,6 +178,8 @@ module riscv_core #(
                              ex_exception,
                              mem_exception,
                              wb_exception;
+  logic [XLEN          -1:0] ex_pc_badaddr,
+                             mem_pc_badaddr;
 
   //RF access
   logic [XLEN          -1:0] id_srcv2;
@@ -317,6 +319,7 @@ module riscv_core #(
     .rst_ni            ( rstn            ),
     .clk_i             ( clk             ),
     .mem_pc_i          ( mem_pc          ),
+    .mem_pc_badaddr    ( mem_pc_badaddr  ), 
     .mem_instr_i       ( mem_instr       ),
     .mem_bubble_i      ( mem_bubble      ),
     .mem_r_i           ( mem_r           ),

@@ -77,6 +77,8 @@ module riscv_state1_10 #(
   input            [XLEN          -1:0] bu_nxt_pc,
   output reg                            st_flush,
   output reg       [XLEN          -1:0] st_nxt_pc,
+  
+  input            [XLEN          -1:0] ex_pc,  //fix mis-align fetch
 
   input            [XLEN          -1:0] wb_pc,
   input                                 wb_bubble,
@@ -1237,9 +1239,14 @@ endgenerate
                 if (wb_exception[CAUSE_ILLEGAL_INSTRUCTION])
                   csr.stval <= wb_instr;
                 else if (wb_exception[CAUSE_MISALIGNED_INSTRUCTION] || wb_exception[CAUSE_INSTRUCTION_ACCESS_FAULT] || wb_exception[CAUSE_INSTRUCTION_PAGE_FAULT] ||
-                         wb_exception[CAUSE_MISALIGNED_LOAD       ] || wb_exception[CAUSE_LOAD_ACCESS_FAULT       ] || wb_exception[CAUSE_LOAD_PAGE_FAULT       ] ||
+                        wb_exception[CAUSE_MISALIGNED_LOAD       ] || wb_exception[CAUSE_LOAD_ACCESS_FAULT       ] || wb_exception[CAUSE_LOAD_PAGE_FAULT       ] ||
                          wb_exception[CAUSE_MISALIGNED_STORE      ] || wb_exception[CAUSE_STORE_ACCESS_FAULT      ] || wb_exception[CAUSE_STORE_PAGE_FAULT      ] )
                   csr.stval <= wb_badaddr;
+                //else if (wb_exception[CAUSE_MISALIGNED_LOAD       ] || wb_exception[CAUSE_LOAD_ACCESS_FAULT       ] || wb_exception[CAUSE_LOAD_PAGE_FAULT       ] ||
+                //         wb_exception[CAUSE_MISALIGNED_STORE      ] || wb_exception[CAUSE_STORE_ACCESS_FAULT      ] || wb_exception[CAUSE_STORE_PAGE_FAULT      ] )
+                //  csr.stval <= wb_badaddr;
+                //else if (wb_exception[CAUSE_MISALIGNED_INSTRUCTION] || wb_exception[CAUSE_INSTRUCTION_ACCESS_FAULT] || wb_exception[CAUSE_INSTRUCTION_PAGE_FAULT])
+                //  csr.stval <= ex_pc;
             end
 /*
             else if (has_h && st_prv >= PRV_H && |(wb_exception & csr.medeleg))
