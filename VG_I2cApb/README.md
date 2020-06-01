@@ -1,5 +1,5 @@
-# VG_WdtApb
-Source code and detail specification of WDT/Timer IP with APB interface
+# VG_I2CApb
+Source code and detail specification of I2C IP with APB interface
 (the part of VG project)
 
 ## General VG specification
