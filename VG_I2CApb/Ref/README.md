@@ -1,4 +1,4 @@
-# VG_I2CApb
+# VG_I2cApb
 All reference metarials are collected at here.
 
 ## General VG specification

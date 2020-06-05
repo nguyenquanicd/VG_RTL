@@ -1,4 +1,4 @@
-# VG_I2CApb
+# VG_I2cApb
 Source code of I2C IP with APB interface
 (the part of VG project)
 
