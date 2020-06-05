@@ -13,13 +13,12 @@ module	SPI_APB_slave
 	output	as2sd	data_req,
 	output 	as2sc	control_reg,
 	output 	bus		wdata,
+	output 	logic	clk,
+	output 	logic 	rst_n,
 	input 	apb_interfaces_in	apb_slave_in,
 	input 	sc2as	reg_out,	
 	input 	bus		rfifo_out);
 
-//=================================================================================	
-	timeunit 10ns;
-	timeprecision 1ns;
 //=================================================================================
 //	Internal Signals
 	logic	[SPI_DATA_WIDTH-1:0] prdata_buf1, prdata_buf2;
@@ -101,7 +100,7 @@ module	SPI_APB_slave
 	
 //	Error flag
 	assign 	error = (|apb_slave_in.paddr[1:0])||(~&apb_slave_in.pstrb[3:0])||(apb_slave_in.pwrite&&((&apb_slave_in.paddr[3:2])||(apb_slave_in.paddr[4]&&~apb_slave_in.paddr[3])));
-
+	
 //	Other Signals
 	always_ff @(posedge apb_slave_in.pclk or negedge apb_slave_in.preset_n )
 	begin
@@ -113,6 +112,8 @@ module	SPI_APB_slave
 
 	assign 	apb_slave_out.pready = 1'b1;
 	assign 	wdata = apb_slave_in.pwdata;
+	assign 	clk = apb_slave_in.pclk;
+	assign 	rst_n = apb_slave_in.preset_n;
 	
 endmodule
 //`default_nettype wire;
