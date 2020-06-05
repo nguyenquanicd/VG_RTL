@@ -37,6 +37,7 @@
 //   2017-02-22: Updated to new memory map
 //   2017-10-06: Changed header, logo, copyright notice
 //
+//
 
 module testbench_top; 
 
@@ -51,7 +52,7 @@ parameter WRITEBUFFER_SIZE = 4;
 parameter HAS_U            = 1;
 parameter HAS_S            = 1;
 parameter HAS_H            = 0;
-parameter HAS_MMU          = 0;
+parameter HAS_MMU          = 1;
 parameter HAS_FPU          = 0;
 parameter HAS_RVA          = 0;
 parameter HAS_RVM          = 0;
@@ -203,18 +204,22 @@ assign pma_cfg[2].amo_type = AMO_TYPE_NONE;
 assign pma_cfg[2].a        = NA4;
 
 //RAM region
-assign pma_adr[3]          = 1 << 31;
+//assign pma_adr[3]          = 1 << 31;
+//assign pma_adr[3]          = 4'hF << 29;  //31:0 -> 33:2 physical address
+assign pma_adr[3]          = (1 << 29) | 'hffff;  //31:0 -> 33:2 physical address
 assign pma_cfg[3].mem_type = MEM_TYPE_MAIN;
 assign pma_cfg[3].r        = 1'b1;
 assign pma_cfg[3].w        = 1'b1;
 assign pma_cfg[3].x        = 1'b1;
-assign pma_cfg[3].c        = 1'b1;
+assign pma_cfg[3].c        = 1'b0;
 assign pma_cfg[3].cc       = 1'b0;
 assign pma_cfg[3].ri       = 1'b0;
 assign pma_cfg[3].wi       = 1'b0;
 assign pma_cfg[3].m        = 1'b0;
-assign pma_cfg[3].amo_type = AMO_TYPE_NONE;
-assign pma_cfg[3].a        = TOR;
+//assign pma_cfg[3].amo_type = AMO_TYPE_NONE;
+assign pma_cfg[3].amo_type = AMO_TYPE_ARITHMETIC;
+//assign pma_cfg[3].a        = TOR;
+assign pma_cfg[3].a        = NAPOT;
 
 
 //Hookup Device Under Test
@@ -381,7 +386,7 @@ begin
 
 //  unified_memory.read_elf2hex(INIT_FILE);
   unified_memory.read_ihex(INIT_FILE);
-//  unified_memory.dump;
+  unified_memory.dump;
 
   HCLK  = 'b0;
 
@@ -393,6 +398,7 @@ begin
 
 
   #112;
+  /*
   //stall CPU
   dbg_ctrl.stall;
 
@@ -418,8 +424,8 @@ begin
   dbg_ctrl.write('h0000,'h0000);
   dbg_ctrl.write('h0001,'h0000);
   dbg_ctrl.unstall;
-
-end		
+*/
+end
 
 endmodule
 
