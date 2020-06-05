@@ -44,7 +44,11 @@ module riscv_icache_ahb3lite #(
                                  //2: LRU
 
 //cacheable region ...
-  parameter TECHNOLOGY     = "GENERIC"
+  parameter TECHNOLOGY     = "GENERIC",
+  
+  parameter DATA_SIZE  = XLEN,
+  parameter ADDR_SIZE  = PHYS_ADDR_SIZE,
+  parameter STRB_SIZE = (DATA_SIZE / 8)
 )
 (
   input                           ARESETn,

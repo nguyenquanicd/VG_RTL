@@ -85,8 +85,8 @@ module memory_model_axi3 #(
   logic [DATA_SIZE/8 -1:0]  dbe     [PORTS];
 
   logic [LATENCY        :1] ack_latency [PORTS];
-  logic [              3:0] rd_cnt;
-  logic                     rd_update;
+  logic [              3:0] rd_cnt [PORTS];
+  logic                     rd_update [PORTS];
 
   ////////////////////////////////////////////////////////////////
   //
@@ -339,29 +339,29 @@ generate
               
        always @(posedge ACLK) begin
             if (!ARESETn)
-                rd_cnt  <=#1 'd0;
+                rd_cnt[p]  <=#1 'd0;
             else if (RVALID[p] & RREADY[p]) begin
                 if (RLAST[p])
-                    rd_cnt  <=#1 'd0;
+                    rd_cnt[p]  <=#1 'd0;
                 else
-                    rd_cnt  <=#1 rd_cnt + 1'b1;
+                    rd_cnt[p]  <=#1 rd_cnt[p] + 1'b1;
             end
        end
        
-       assign RLAST[p] = RVALID[p] & (rd_cnt == ARLEN[p]);
+       assign RLAST[p] = RVALID[p] & (rd_cnt[p] == ARLEN[p]);
+       
+       assign rd_update[p] = ack_latency[p][LATENCY] | (RREADY[p] && RVALID[p]);
        
        always @(posedge ACLK)
         if (ARREADY[p] && ARVALID[p])
             raddr[p] <=#1 ARADDR[p] & ( {DATA_SIZE{1'b1}} << $clog2(DATA_SIZE/8) );
-        else if (rd_cnt==0 && ARLEN[p] > 0 && rd_update) //send next address for preparing next data
+        else if (rd_cnt[p]==0 && (ARLEN[p] > 0) && rd_update[p]) //send next address for preparing next data
             raddr[p] <=#1 {raddr[p][ADDR_SIZE-1:7], nxt_addr(raddr[p], ARBURST[p], ARLEN[p])};
         else if ((RVALID[p] && RREADY[p])) 
             raddr[p] <=#1 {raddr[p][ADDR_SIZE-1:7], nxt_addr(raddr[p], ARBURST[p], ARLEN[p])};
 
-       assign rd_update = ack_latency[p][LATENCY] | (RREADY[p] && RVALID[p]);
-
        always @(posedge ACLK)
-        if (rd_update) begin
+        if (rd_update[p]) begin
           if (raddr[p] == waddr[p] && wreq[p])
               begin
                   for (j=0; j<DATA_SIZE/8; j++)

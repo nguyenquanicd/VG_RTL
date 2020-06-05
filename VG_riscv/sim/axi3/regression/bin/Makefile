@@ -41,7 +41,7 @@
 all: regression
 
 SIMULATORS = ncsim vcs msim riviera
-SIM        = riviera
+SIM        = msim
 SIMWAVES   = $(addsuffix _waves, $(SIMULATORS))
 
 MS     = -s
@@ -73,7 +73,7 @@ REGRESSION_MULT_LATENCY = 3 2 1 0
 # Tests
 #
 ##########################################################################
-XLEN    = 32
+XLEN    = 64 
 HAS_RVC = 0
 HAS_U   = 1 
 HAS_S   = 

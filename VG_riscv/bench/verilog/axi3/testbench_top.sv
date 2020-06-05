@@ -39,7 +39,7 @@ parameter            STRB_SIZE = (DATA_SIZE / 8)  ;
 //
 import riscv_state_pkg::*;
 import riscv_pma_pkg::*;
-import ahb3lite_pkg::*;
+//import ahb3lite_pkg::*;
 import axi3_pkg::*;
 
 localparam MULLAT = MULT_LATENCY > 4 ? 4 : MULT_LATENCY;
@@ -503,7 +503,7 @@ begin
 
 //  unified_memory.read_elf2hex(INIT_FILE);
   unified_memory.read_ihex(INIT_FILE);
-//  unified_memory.dump;
+  unified_memory.dump;
 
   ACLK  = 'b0;
 
@@ -554,13 +554,10 @@ module mmio_if #(
   parameter DATA_SIZE    = 32,
   parameter ADDR_SIZE    = 32,
   parameter CATCH_TEST    = 80001000,
-  parameter CATCH_UART_TX = 80001080
+  parameter CATCH_UART_TX = 80001080,
+  parameter STRB_SIZE = (DATA_SIZE / 8)
 )
 (
-  //Clock, Reset
-  input                         ARESETn,
-  input                         ACLK,
- 
   //
   //AXI3 Bus
   //Clock, Reset
@@ -576,18 +573,18 @@ module mmio_if #(
   input                [          2:0]	AWSIZE    ,
   input                [          1:0]	AWBURST   ,
   input                                 AWVALID   ,
-  output logic	                        AWREADY   ,
+  input logic	                        AWREADY   ,
   //W channel
   input                [          3:0]	WID       ,
   input                [DATA_SIZE-1:0]	WDATA     ,
   input                [STRB_SIZE-1:0]	WSTRB     ,
   input                                 WLAST     ,
   input                                 WVALID    ,
-  output logic	                        WREADY    ,
+  input logic	                        WREADY    ,
   //B channel (write response)
-  output logic	       [          3:0]	BID       ,
-  output logic	       [          1:0]	BRESP     ,
-  output logic	                        BVALID    ,
+  input logic	       [          3:0]	BID       ,
+  input logic	       [          1:0]	BRESP     ,
+  input logic	                        BVALID    ,
   input                                 BREADY    ,
 
   //AR channel
@@ -597,13 +594,13 @@ module mmio_if #(
   input                [          2:0]	ARSIZE    ,
   input                [          1:0]	ARBURST   ,
   input                                 ARVALID   ,
-  output logic                          ARREADY   ,
+  input logic                          ARREADY   ,
   //R channel                                     
-  output logic	       [          3:0]	RID       ,
-  output logic	       [DATA_SIZE-1:0]	RDATA     ,
-  output logic	       [          1:0]	RRESP     ,
-  output logic	                        RLAST     ,
-  output logic	                        RVALID    ,
+  input logic	       [          3:0]	RID       ,
+  input logic	       [DATA_SIZE-1:0]	RDATA     ,
+  input logic	       [          1:0]	RRESP     ,
+  input logic	                        RLAST     ,
+  input logic	                        RVALID    ,
   input                                 RREADY    
 );
   //
@@ -658,7 +655,7 @@ module mmio_if #(
   always @(posedge ACLK,negedge ARESETn)
     if (!ARESETn)
     begin
-        AWREADY  <= 1'b1;
+        //AWREADY  <= 1'b1;
     end
     else if (AWVALID == 0)
     begin
