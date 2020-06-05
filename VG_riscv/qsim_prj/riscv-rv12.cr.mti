@@ -1,41 +1,41 @@
-../rtl/verilog/pkg/riscv_state1.7_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_state1.7_pkg.sv
+../rtl/verilog/pkg/riscv_state1.7_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_state1.7_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_state_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/core/riscv_du.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_du.sv
+} {} {}} ../rtl/verilog/core/riscv_du.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_du_sv_unit
 -- Importing package riscv_opcodes_pkg
 -- Importing package riscv_state_pkg
 -- Importing package riscv_du_pkg
 -- Compiling module riscv_du
-** Warning: ../rtl/verilog/core/riscv_du.sv(446): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(446): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/riscv_du.sv(449): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(449): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/riscv_du.sv(450): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(450): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/riscv_du.sv(451): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(451): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/riscv_du.sv(452): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(452): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/riscv_du.sv(458): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_du.sv(458): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
 
 Top level modules:
 	riscv_du
 
-} {} {}} ../rtl/verilog/core/riscv_bp.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_bp.sv
+} {} {}} ../rtl/verilog/core/riscv_bp.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_bp.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module riscv_bp
 
 Top level modules:
 	riscv_bp
 
-} {} {}} ../rtl/verilog/core/ex/riscv_bu.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/ex/riscv_bu.sv
+} {} {}} ../rtl/verilog/core/ex/riscv_bu.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_bu.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_bu_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -45,40 +45,40 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_bu
 
-} {} {}} ../rtl/verilog/core/memory/riscv_pmpchk.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_pmpchk.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_pmpchk.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_pmpchk_sv_unit
 -- Importing package riscv_state_pkg
 -- Importing package biu_constants_pkg
 -- Compiling module riscv_pmpchk
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(217): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(217): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(218): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(218): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(219): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(219): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(220): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(220): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(226): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(226): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(227): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(227): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(228): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(228): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/memory/riscv_pmpchk.sv(229): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmpchk.sv(229): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
 
 Top level modules:
 	riscv_pmpchk
 
-} {} {}} ../rtl/verilog/pkg/riscv_rv12_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_rv12_pkg.sv
+} {} {}} ../rtl/verilog/pkg/riscv_rv12_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_rv12_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_rv12_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/ahb3lite/biu_ahb3lite.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/ahb3lite/biu_ahb3lite.sv
+} {} {}} ../rtl/verilog/ahb3lite/biu_ahb3lite.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/ahb3lite/biu_ahb3lite.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package biu_ahb3lite_sv_unit
 -- Importing package ahb3lite_pkg
@@ -88,7 +88,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	biu_ahb3lite
 
-} {} {}} ../rtl/verilog/core/riscv_core.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_core.sv
+} {} {}} ../rtl/verilog/core/riscv_core.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_core.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_core_sv_unit
 -- Importing package riscv_du_pkg
@@ -100,26 +100,14 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_core
 
-} {} {}} ../rtl/verilog/pkg/riscv_du_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_du_pkg.sv
+} {} {}} ../rtl/verilog/pkg/riscv_du_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_du_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_du_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../bench/verilog/ahb3lite/testbench_top.sv {1 {vlog -work work -vopt -sv ../bench/verilog/ahb3lite/testbench_top.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module testbench_top
--- Importing package riscv_state_pkg
--- Importing package riscv_pma_pkg
--- Importing package ahb3lite_pkg
--- Compiling module mmio_if
--- Compiling module htif
-
-Top level modules:
-	testbench_top
-
-} {} {}} ../rtl/verilog/core/cache/riscv_dext.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/cache/riscv_dext.sv
+} {} {}} ../rtl/verilog/core/cache/riscv_dext.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dext.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_dext_sv_unit
 -- Importing package biu_constants_pkg
@@ -128,21 +116,21 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_dext
 
-} {} {}} ../bench/verilog/ahb3lite/dbg_bfm.sv {1 {vlog -work work -vopt -sv ../bench/verilog/ahb3lite/dbg_bfm.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module dbg_bfm
-
-Top level modules:
-	dbg_bfm
-
-} {} {}} ../rtl/verilog/core/memory/rl_ram_1rw_generic.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/rl_ram_1rw_generic.sv
+} {} {}} ../rtl/verilog/core/memory/rl_ram_1rw_generic.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/rl_ram_1rw_generic.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module rl_ram_1rw_generic
 
 Top level modules:
 	rl_ram_1rw_generic
 
-} {} {}} ../rtl/verilog/core/riscv_mem.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_mem.sv
+} {} {}} ../bench/verilog/ahb3lite/dbg_bfm.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/bench/verilog/ahb3lite/dbg_bfm.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module dbg_bfm
+
+Top level modules:
+	dbg_bfm
+
+} {} {}} ../rtl/verilog/core/riscv_mem.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_mem.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_mem_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -152,14 +140,59 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_mem
 
-} {} {}} ../rtl/verilog/core/riscv_rf.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_rf.sv
+} {} {}} ../rtl/verilog/core/riscv_rf.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_rf.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module riscv_rf
 
 Top level modules:
 	riscv_rf
 
-} {} {}} ../rtl/verilog/ahb3lite/riscv_top_ahb3lite.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/ahb3lite/riscv_top_ahb3lite.sv
+} {} {}} ../rtl/verilog/core/riscv_wb.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package riscv_wb_sv_unit
+-- Importing package riscv_opcodes_pkg
+-- Importing package riscv_state_pkg
+-- Compiling module riscv_wb
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(189): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(190): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(191): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(192): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(193): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(194): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(195): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(196): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_wb.sv(212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+
+Top level modules:
+	riscv_wb
+
+} {} {}} ../rtl/verilog/core/memory/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/rl_ram_1r1w.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module rl_ram_1r1w
+
+Top level modules:
+	rl_ram_1r1w
+
+} {} {}} ../rtl/verilog/ahb3lite/riscv_top_ahb3lite.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/ahb3lite/riscv_top_ahb3lite.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_top_ahb3lite_sv_unit
 -- Importing package riscv_state_pkg
@@ -171,52 +204,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_top_ahb3lite
 
-} {} {}} ../rtl/verilog/core/memory/rl_ram_1r1w.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/rl_ram_1r1w.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module rl_ram_1r1w
-
-Top level modules:
-	rl_ram_1r1w
-
-} {} {}} ../rtl/verilog/core/riscv_wb.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_wb.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling package riscv_wb_sv_unit
--- Importing package riscv_opcodes_pkg
--- Importing package riscv_state_pkg
--- Compiling module riscv_wb
-** Warning: ../rtl/verilog/core/riscv_wb.sv(186): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(187): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(188): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(189): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(190): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(191): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(192): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(193): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(204): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(205): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/riscv_wb.sv(209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-
-Top level modules:
-	riscv_wb
-
-} {} {}} ../rtl/verilog/ahb3lite/riscv_icache_ahb3lite.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/ahb3lite/riscv_icache_ahb3lite.sv
+} {} {}} ../rtl/verilog/ahb3lite/riscv_icache_ahb3lite.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/ahb3lite/riscv_icache_ahb3lite.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_icache_ahb3lite_sv_unit
 -- Importing package biu_constants_pkg
@@ -225,7 +213,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_icache_ahb3lite
 
-} {} {}} ../rtl/verilog/core/memory/riscv_wbuf.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_wbuf.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_wbuf.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_wbuf.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_wbuf_sv_unit
 -- Importing package biu_constants_pkg
@@ -234,14 +222,14 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_wbuf
 
-} {} {}} ../rtl/verilog/pkg/biu_constants_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/biu_constants_pkg.sv
+} {} {}} ../rtl/verilog/pkg/biu_constants_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/biu_constants_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package biu_constants_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/pkg/riscv_pma_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_pma_pkg.sv
+} {} {}} ../rtl/verilog/pkg/riscv_pma_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_pma_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_pma_pkg
 -- Importing package riscv_state_pkg
@@ -249,57 +237,105 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/core/cache/riscv_dcache_core.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/cache/riscv_dcache_core.sv
+} {} {}} ../rtl/verilog/core/cache/riscv_dcache_core.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_dcache_core_sv_unit
 -- Importing package biu_constants_pkg
 -- Compiling module riscv_dcache_core
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(792): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(792): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(797): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(797): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(799): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(799): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(816): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(816): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(817): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(817): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(815): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(815): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(816): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(816): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(817): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(817): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(871): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(871): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_dcache_core.sv(871): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_dcache_core.sv(871): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
 
 Top level modules:
 	riscv_dcache_core
 
-} {} {}} ../rtl/verilog/core/memory/rl_queue.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/rl_queue.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_pmachk.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module rl_queue
+-- Compiling package riscv_pmachk_sv_unit
+-- Importing package riscv_pma_pkg
+-- Importing package riscv_state_pkg
+-- Importing package biu_constants_pkg
+-- Compiling module riscv_pmachk
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(255): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(255): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(264): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(265): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(267): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(264): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(265): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_pmachk.sv(267): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+
 
 Top level modules:
-	rl_queue
+	riscv_pmachk
 
-} {} {}} ../rtl/verilog/core/memory/riscv_imem_ctrl.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_imem_ctrl.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_imem_ctrl.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_imem_ctrl.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_imem_ctrl_sv_unit
 -- Importing package riscv_state_pkg
@@ -310,62 +346,14 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_imem_ctrl
 
-} {} {}} ../rtl/verilog/core/memory/riscv_pmachk.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_pmachk.sv
+} {} {}} ../rtl/verilog/core/memory/rl_queue.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/rl_queue.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling package riscv_pmachk_sv_unit
--- Importing package riscv_pma_pkg
--- Importing package riscv_state_pkg
--- Importing package biu_constants_pkg
--- Compiling module riscv_pmachk
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(255): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(255): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(264): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(265): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(267): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(263): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(264): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(265): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
-** Warning: ../rtl/verilog/core/memory/riscv_pmachk.sv(267): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
-
+-- Compiling module rl_queue
 
 Top level modules:
-	riscv_pmachk
+	rl_queue
 
-} {} {}} ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_dmem_ctrl.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_dmem_ctrl.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_dmem_ctrl_sv_unit
 -- Importing package riscv_state_pkg
@@ -376,78 +364,78 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_dmem_ctrl
 
-} {} {}} ../rtl/verilog/core/ex/riscv_lsu.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/ex/riscv_lsu.sv
+} {} {}} ../rtl/verilog/core/ex/riscv_lsu.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_lsu_sv_unit
 -- Importing package riscv_opcodes_pkg
 -- Importing package riscv_state_pkg
 -- Importing package biu_constants_pkg
 -- Compiling module riscv_lsu
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(239): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(239): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(240): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(240): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(241): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(241): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(242): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(242): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(243): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(243): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(244): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(244): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(245): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(245): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(246): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(246): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(247): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(247): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(248): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(248): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(249): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(250): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(250): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(269): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(269): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(270): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(270): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(271): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(271): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(272): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(272): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(273): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(273): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(274): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(274): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(275): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(275): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(276): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(276): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(284): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(284): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/ex/riscv_lsu.sv(286): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_lsu.sv(286): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
 
 Top level modules:
 	riscv_lsu
 
-} {} {}} ../rtl/verilog/core/memory/riscv_membuf.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_membuf.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_membuf.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_membuf.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_membuf_sv_unit
 -- Importing package biu_constants_pkg
@@ -456,16 +444,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_membuf
 
-} {} {}} ../rtl/verilog/core/cache/riscv_noicache_core.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/cache/riscv_noicache_core.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling package riscv_noicache_core_sv_unit
--- Importing package biu_constants_pkg
--- Compiling module riscv_noicache_core
-
-Top level modules:
-	riscv_noicache_core
-
-} {} {}} ../rtl/verilog/core/riscv_ex.sv {1 {vlog -work work -vopt -sv {E:\GIT\VG_RTL\VG_riscv\rtl\verilog\core\riscv_ex.sv}
+} {} {}} ../rtl/verilog/core/riscv_ex.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_ex.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_ex_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -476,24 +455,23 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_ex
 
-} {} {}} ../rtl/verilog/pkg/riscv_opcodes_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_opcodes_pkg.sv
+} {} {}} ../rtl/verilog/core/cache/riscv_noicache_core.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_noicache_core.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package riscv_noicache_core_sv_unit
+-- Importing package biu_constants_pkg
+-- Compiling module riscv_noicache_core
+
+Top level modules:
+	riscv_noicache_core
+
+} {} {}} ../rtl/verilog/pkg/riscv_opcodes_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_opcodes_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_opcodes_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/core/riscv_if.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_if.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling package riscv_if_sv_unit
--- Importing package riscv_opcodes_pkg
--- Importing package riscv_state_pkg
--- Compiling module riscv_if
-
-Top level modules:
-	riscv_if
-
-} {} {}} ../rtl/verilog/core/ex/riscv_div.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/ex/riscv_div.sv
+} {} {}} ../rtl/verilog/core/ex/riscv_div.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_div.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_div_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -503,22 +481,32 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_div
 
-} {} {}} ../rtl/verilog/core/cache/riscv_icache_core.sv {2 {vlog -work work -vopt -sv ../rtl/verilog/core/cache/riscv_icache_core.sv
+} {} {}} ../rtl/verilog/core/riscv_if.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_if.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package riscv_if_sv_unit
+-- Importing package riscv_opcodes_pkg
+-- Importing package riscv_state_pkg
+-- Compiling module riscv_if
+
+Top level modules:
+	riscv_if
+
+} {} {}} ../rtl/verilog/core/cache/riscv_icache_core.sv {2 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_icache_core.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_icache_core_sv_unit
 -- Importing package biu_constants_pkg
 -- Compiling module riscv_icache_core
-** Warning: ../rtl/verilog/core/cache/riscv_icache_core.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_icache_core.sv(606): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_icache_core.sv(652): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_icache_core.sv(652): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
-** Warning: ../rtl/verilog/core/cache/riscv_icache_core.sv(653): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+** Warning: D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/cache/riscv_icache_core.sv(653): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
 
 
 Top level modules:
 	riscv_icache_core
 
-} {} {}} ../rtl/verilog/pkg/ahb3lite_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/ahb3lite_pkg.sv
+} {} {}} ../rtl/verilog/pkg/ahb3lite_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/ahb3lite_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package ahb3lite_pkg
 -- Compiling interface ahb3lite_bus
@@ -527,7 +515,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/core/riscv_state1.10.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_state1.10.sv
+} {} {}} ../rtl/verilog/core/riscv_state1.10.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_state1.10.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_state1_10_sv_unit
 -- Importing package riscv_rv12_pkg
@@ -538,7 +526,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_state1_10
 
-} {} {}} ../rtl/verilog/core/ex/riscv_mul.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/ex/riscv_mul.sv
+} {} {}} ../rtl/verilog/core/ex/riscv_mul.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_mul.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_mul_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -548,21 +536,21 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_mul
 
-} {} {}} ../rtl/verilog/pkg/riscv_state1.9_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_state1.9_pkg.sv
+} {} {}} ../rtl/verilog/pkg/riscv_state1.9_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_state1.9_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_state_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/pkg/riscv_state1.10_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_state1.10_pkg.sv
+} {} {}} ../rtl/verilog/pkg/riscv_state1.10_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_state1.10_pkg.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_state_pkg
 
 Top level modules:
 	--none--
 
-} {} {}} ../rtl/verilog/core/memory/riscv_memmisaligned.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_memmisaligned.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_memmisaligned.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_memmisaligned.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_memmisaligned_sv_unit
 -- Importing package biu_constants_pkg
@@ -571,28 +559,21 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_memmisaligned
 
-} {} {}} ../rtl/verilog/core/memory/rl_ram_1r1w_generic.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/rl_ram_1r1w_generic.sv
+} {} {}} ../rtl/verilog/core/memory/rl_ram_1r1w_generic.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/rl_ram_1r1w_generic.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module rl_ram_1r1w_generic
 
 Top level modules:
 	rl_ram_1r1w_generic
 
-} {} {}} ../rtl/verilog/core/memory/rl_ram_1rw.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/rl_ram_1rw.sv
+} {} {}} ../rtl/verilog/core/memory/rl_ram_1rw.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/rl_ram_1rw.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling module rl_ram_1rw
 
 Top level modules:
 	rl_ram_1rw
 
-} {} {}} ../rtl/verilog/pkg/riscv_pkg.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/pkg/riscv_pkg.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling package riscv_pkg
-
-Top level modules:
-	--none--
-
-} {} {}} ../rtl/verilog/core/memory/biu_mux.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/biu_mux.sv
+} {} {}} ../rtl/verilog/core/memory/biu_mux.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/biu_mux.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package biu_mux_sv_unit
 -- Importing package biu_constants_pkg
@@ -601,7 +582,14 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	biu_mux
 
-} {} {}} ../rtl/verilog/core/riscv_id.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/riscv_id.sv
+} {} {}} ../rtl/verilog/pkg/riscv_pkg.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/pkg/riscv_pkg.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling package riscv_pkg
+
+Top level modules:
+	--none--
+
+} {} {}} ../rtl/verilog/core/riscv_id.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/riscv_id.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_id_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -611,7 +599,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_id
 
-} {} {}} ../rtl/verilog/core/ex/riscv_alu.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/ex/riscv_alu.sv
+} {} {}} ../rtl/verilog/core/ex/riscv_alu.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/ex/riscv_alu.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_alu_sv_unit
 -- Importing package riscv_opcodes_pkg
@@ -621,15 +609,7 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 Top level modules:
 	riscv_alu
 
-} {} {}} ../bench/verilog/ahb3lite/memory_model_ahb3lite.sv {1 {vlog -work work -vopt -sv ../bench/verilog/ahb3lite/memory_model_ahb3lite.sv
-QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
--- Compiling module memory_model_ahb3lite
--- Importing package ahb3lite_pkg
-
-Top level modules:
-	memory_model_ahb3lite
-
-} {} {}} ../rtl/verilog/core/memory/riscv_mmu.sv {1 {vlog -work work -vopt -sv ../rtl/verilog/core/memory/riscv_mmu.sv
+} {} {}} ../rtl/verilog/core/memory/riscv_mmu.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/rtl/verilog/core/memory/riscv_mmu.sv
 QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 -- Compiling package riscv_mmu_sv_unit
 -- Importing package biu_constants_pkg
@@ -637,5 +617,13 @@ QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
 
 Top level modules:
 	riscv_mmu
+
+} {} {}} ../bench/verilog/ahb3lite/memory_model_ahb3lite.sv {1 {vlog -work work -vopt -sv D:/GIT/VG_RTL/VG_riscv/bench/verilog/ahb3lite/memory_model_ahb3lite.sv
+QuestaSim-64 vlog 10.2c Compiler 2013.07 Jul 19 2013
+-- Compiling module memory_model_ahb3lite
+-- Importing package ahb3lite_pkg
+
+Top level modules:
+	memory_model_ahb3lite
 
 } {} {}}
