@@ -90,6 +90,7 @@ module biu_axi3 #(
   //logic                 addr_ena,
   //                      data_ena;
   logic [DATA_SIZE-1:0] biu_di_dly;
+  biu_size_t            biu_sizei_dly;
 
   //internal logics
   logic biu_write;
@@ -142,8 +143,12 @@ module biu_axi3 #(
   always @(posedge ACLK) begin
     if (!ARESETn)
         AWVALID  <=#1 1'b0;
-    else if (biu_stb_ack_o & biu_we_i)
+    else if (biu_stb_ack_o & biu_we_i) begin
         AWVALID  <=#1 1'b1;
+        //backup and send W change after AW change is handshake
+        biu_di_dly <=#1 biu_d_i;
+        biu_sizei_dly <=#1 biu_size_i;
+    end
     else if (AWREADY)
         AWVALID  <=#1 1'b0;
   end
@@ -157,8 +162,8 @@ module biu_axi3 #(
   
   always @(posedge ACLK) begin
     if (wdata_update) begin
-      WDATA  <=#1 biu_d_i; //
-      WSTRB  <=#1 biu_size2xstrb(addr_buffer, biu_size2xsize(biu_size_i));
+      WDATA  <=#1 biu_di_dly; //
+      WSTRB  <=#1 biu_size2xstrb(addr_buffer, biu_size2xsize(biu_sizei_dly));
     end
   end
   
@@ -267,8 +272,8 @@ module biu_axi3 #(
   assign biu_adro_o = {AWADDR[ADDR_SIZE-1:7], addr_buffer[6:0]};
   
   //Data section
-  always @(posedge ACLK) 
-    if (AWREADY | WREADY) biu_di_dly <=#1 biu_d_i;
+  //always @(posedge ACLK) 
+  //  if (AWREADY | WREADY) biu_di_dly <=#1 biu_d_i;
 
   //always @(posedge ACLK)
   //  if (AWREADY | WREADY)
