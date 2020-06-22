@@ -202,7 +202,7 @@ assign pma_cfg[0].a        = TOR;
 //TOHOST region
 assign pma_adr[1]          = ((TOHOST >> 2) & ~'hf) | 'h7;
 assign pma_cfg[1].mem_type = MEM_TYPE_IO;
-assign pma_cfg[1].r        = 1'b0;
+assign pma_cfg[1].r        = 1'b1;
 assign pma_cfg[1].w        = 1'b1;
 assign pma_cfg[1].x        = 1'b0;
 assign pma_cfg[1].c        = 1'b0;
@@ -228,12 +228,12 @@ assign pma_cfg[2].amo_type = AMO_TYPE_NONE;
 assign pma_cfg[2].a        = NA4;
 
 //RAM region
-assign pma_adr[3]          = 1 << 31;
+assign pma_adr[3]          = 32'hF0000000 >> 2;
 assign pma_cfg[3].mem_type = MEM_TYPE_MAIN;
 assign pma_cfg[3].r        = 1'b1;
 assign pma_cfg[3].w        = 1'b1;
 assign pma_cfg[3].x        = 1'b1;
-assign pma_cfg[3].c        = 1'b1;
+assign pma_cfg[3].c        = 1'b0;
 assign pma_cfg[3].cc       = 1'b0;
 assign pma_cfg[3].ri       = 1'b0;
 assign pma_cfg[3].wi       = 1'b0;
@@ -705,8 +705,8 @@ module mmio_if #(
             $display("-------------------------------------------------------------");
           $display("\n");
 
-          //$finish();
-		  $stop();
+          $finish();
+          //$stop();
       end
   end
 endmodule
