@@ -1,1 +1,8 @@
-rv32mi-p-ma_fetch
+rv32ui-p-lb
+rv32ui-p-lbu
+rv32ui-p-lh
+rv32ui-p-lhu
+rv32ui-p-lw
+rv32ui-p-sb
+rv32ui-p-sh
+rv32ui-p-sw

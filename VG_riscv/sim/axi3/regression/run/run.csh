@@ -9,8 +9,8 @@ set HAS_H   = 0
 set HAS_RVA = 0
 set HAS_FPU = 0
 set HAS_MMU = 0
-set HAS_RVM = 1
-set HAS_DIV = 1
+set HAS_RVM = 0
+set HAS_DIV = 0
 set CORES   = 1
 
 #testcase list
@@ -102,7 +102,7 @@ echo $tests
 
 
 set ROOT_DIR = "../../../../.."
-set TEST_DIR_1 = "${ROOT_DIR}/bench/tests/regression"
+set TEST_DIR_1 = "${ROOT_DIR}/bench/tests/testdump/rv32ui-p"
 set TEST_DIR = "../../../../bench/tests/regression"
 
 set DUT_SRC_DIR = "${ROOT_DIR}/rtl/verilog"
