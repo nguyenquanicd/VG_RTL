@@ -146,7 +146,6 @@ module biu_axi3 #(
     else if (biu_stb_ack_o & biu_we_i) begin
         AWVALID  <=#1 1'b1;
         //backup and send W change after AW change is handshake
-        biu_di_dly <=#1 biu_d_i;
         biu_sizei_dly <=#1 biu_size_i;
     end
     else if (AWREADY)
@@ -272,8 +271,10 @@ module biu_axi3 #(
   assign biu_adro_o = {AWADDR[ADDR_SIZE-1:7], addr_buffer[6:0]};
   
   //Data section
-  //always @(posedge ACLK) 
-  //  if (AWREADY | WREADY) biu_di_dly <=#1 biu_d_i;
+  always @(posedge ACLK) begin
+    if ((biu_stb_ack_o & biu_we_i) | AWREADY | WREADY)
+      biu_di_dly <=#1 biu_d_i;
+  end
 
   //always @(posedge ACLK)
   //  if (AWREADY | WREADY)
