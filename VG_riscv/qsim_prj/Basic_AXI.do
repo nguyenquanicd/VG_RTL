@@ -858,14 +858,6 @@ add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/ARBURST
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/ARLEN
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/ARSIZE
 add wave -noupdate -expand -group D_BIU -divider {New Divider}
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWVALID
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWREADY
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWADDR
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWBURST
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWID
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWLEN
-add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWSIZE
-add wave -noupdate -expand -group D_BIU -divider {New Divider}
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/BVALID
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/BREADY
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/BRESP
@@ -875,6 +867,14 @@ add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/RREADY
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/RDATA
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/RLAST
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/RRESP
+add wave -noupdate -expand -group D_BIU -divider {New Divider}
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWVALID
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWREADY
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWADDR
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWBURST
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWID
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWLEN
+add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/AWSIZE
 add wave -noupdate -expand -group D_BIU -divider {New Divider}
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/WVALID
 add wave -noupdate -expand -group D_BIU /testbench_top/dut/dbiu_inst/WREADY
@@ -951,19 +951,83 @@ add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/cpu_dat_o
 add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/cpu_dat_i
 add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/cpu_ack_i
 add wave -noupdate -group Debug_Ctrl /testbench_top/dbg_ctrl/stall_cpu
-add wave -noupdate /testbench_top/genblk1/mmio_if_inst/catch_test
-add wave -noupdate /testbench_top/genblk1/mmio_if_inst/catch_uart_tx
-add wave -noupdate /testbench_top/dut/core/du_unit/ex_stall
-add wave -noupdate /testbench_top/dut/core/du_unit/dbg.hit
-add wave -noupdate /testbench_top/dut/core/du_unit/dbg
-add wave -noupdate /testbench_top/dut/core/du_unit/du_stall
-add wave -noupdate /testbench_top/dut/core/du_unit/du_flush
-add wave -noupdate /testbench_top/dut/core/du_unit/bu_flush
-add wave -noupdate /testbench_top/dut/core/du_unit/st_flush
-add wave -noupdate /testbench_top/dut/core/du_unit/du_exceptions
-add wave -noupdate /testbench_top/dut/core/du_unit/dbg_bp
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/mem_err_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/HAS_RVC
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/PLEN
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/PMA_CNT
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/XLEN
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/access_lb
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/access_ub
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/adr_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/exception_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/instruction_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/is_cache_access_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/is_ext_access_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/is_tcm_access_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/lock_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/matched_pma
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/matched_pma_idx
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/misaligned_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/misaligned_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_adr_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_cfg_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_lb
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match
+add wave -noupdate -group PMA {/testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match[0]}
+add wave -noupdate -group PMA {/testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match[1]}
+add wave -noupdate -group PMA {/testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match[2]}
+add wave -noupdate -group PMA {/testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match[3]}
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_match_all
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_o
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pma_ub
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/pmacfg
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/req_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/size_i
+add wave -noupdate -group PMA /testbench_top/dut/dmem_ctrl_inst/pmachk_inst/we_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/ADDR_SIZE
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/DATA_SIZE
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/PORTS
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/QUEUE_DEPTH
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_ack_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_ack_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_adri_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_adri_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_adro_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_adro_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_d_ack_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_d_ack_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_d_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_d_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_err_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_err_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_lock_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_lock_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_prot_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_prot_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_q_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_q_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_req_ack_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_req_ack_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_req_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_req_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_size_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_size_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_type_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_type_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_we_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/biu_we_o
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/burst_cnt
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/clk_i
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/fsm_state
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/pending_burst_cnt
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/pending_port
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/pending_req
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/pending_size
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/rst_ni
+add wave -noupdate -group BIU_mux /testbench_top/dut/dmem_ctrl_inst/biu_mux_inst/selected_port
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {Start_test2 {2249 ns} 1} {{Cursor 2} {2331 ns} 0}
+WaveRestoreCursors {Start_test2 {2249 ns} 1} {{Cursor 2} {4383 ns} 0}
 quietly wave cursor active 2
 configure wave -namecolwidth 202
 configure wave -valuecolwidth 148
@@ -979,4 +1043,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {1307 ns} {3355 ns}
+WaveRestoreZoom {4375 ns} {4387 ns}
