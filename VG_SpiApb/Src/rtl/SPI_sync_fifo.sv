@@ -1,14 +1,14 @@
 //////////////////////////////////////////////////////////////////////////////////
 // File Name: 		SPI_sync_fifo.sv
-// Module Name:		SPI
 // Project Name:	VG CPU
 // Author:	 		hungbk99
 // Page:     		VLSI Technology
 //////////////////////////////////////////////////////////////////////////////////
 
+import	SPI_package::*;
 module SPI_sync_fifo
-	import	SPI_package::*;
-	(output	fifo_interrupt interrupt,
+(
+	output	fifo_interrupt interrupt,
 	output 	bus	data_out,
 	output	logic	[SPI_POINTER_WIDTH-1:0]	fifo_status,
 	input 	bus	data_in,
@@ -16,7 +16,8 @@ module SPI_sync_fifo
 	input 	logic store,
 	input 	logic load,
 	input 	logic clk,
-	input 	logic rst_n);
+	input 	logic rst_n
+);
 	
 //================================================================================	
 //	Internal Signals
