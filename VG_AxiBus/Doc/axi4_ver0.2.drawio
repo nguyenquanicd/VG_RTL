@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T04:22:18.472Z" agent="5.0 (Windows)" etag="WIcvQDDqNvbJDSUo2fh9" version="14.4.2" type="github" pages="11">
+<mxfile host="app.diagrams.net" modified="2021-02-25T04:22:39.541Z" agent="5.0 (Windows)" etag="aniK0PF9JJcwiUblsJTW" version="14.4.2" type="github" pages="11">
   <diagram id="0ciuMCJ45pLDEvmCelUE" name="Connection">
     <mxGraphModel dx="2089" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3263,7 +3263,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hSwwT4Le0d6UIA7Lk16Q" name="AW Arbiter">
-    <mxGraphModel dx="2930" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1879" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y4BL_L1ir_AxGmQeKUiQ-0" />
         <mxCell id="Y4BL_L1ir_AxGmQeKUiQ-1" parent="Y4BL_L1ir_AxGmQeKUiQ-0" />
@@ -4271,7 +4271,7 @@
         <mxCell id="wVav6nmVq7xFM4QNhVHe-98" value="" style="shape=xor;whiteSpace=wrap;html=1;strokeColor=#33001A;" vertex="1" parent="Y4BL_L1ir_AxGmQeKUiQ-1">
           <mxGeometry x="120" y="2617.35" width="40" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="wVav6nmVq7xFM4QNhVHe-99" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;prior_mask[0]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="Y4BL_L1ir_AxGmQeKUiQ-1">
+        <mxCell id="wVav6nmVq7xFM4QNhVHe-99" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;prior_mask[1]&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="Y4BL_L1ir_AxGmQeKUiQ-1">
           <mxGeometry x="40" y="2677.06" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="wVav6nmVq7xFM4QNhVHe-100" value="" style="endArrow=classic;html=1;strokeColor=#33001A;" edge="1" parent="Y4BL_L1ir_AxGmQeKUiQ-1">
