@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T10:06:58.262Z" agent="5.0 (Windows)" etag="V6gG41Cd0CSctxi0jY2Y" version="14.4.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-02-25T10:10:03.619Z" agent="5.0 (Windows)" etag="6Pk6z0mil7EVKhFRHpsZ" version="14.4.2" type="github" pages="14">
   <diagram id="0ciuMCJ45pLDEvmCelUE" name="Connection">
-    <mxGraphModel dx="1548" dy="490" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2312" dy="1008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -7390,7 +7390,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="ybFOvBnC5gKOVR6NPG12" name="ARSI">
-    <mxGraphModel dx="953" dy="-976" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="-249" dy="-1792" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="KynZhwwtDon0E9S47-Nx-0" />
         <mxCell id="KynZhwwtDon0E9S47-Nx-1" parent="KynZhwwtDon0E9S47-Nx-0" />
@@ -7779,6 +7779,9 @@
         </mxCell>
         <mxCell id="WaoKVXsiR_MfUIPTeqyF-6" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot;&gt;dsready&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;shadow=1;" vertex="1" parent="KynZhwwtDon0E9S47-Nx-1">
           <mxGeometry x="905.1399999999999" y="3540" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z0MZtI5jDcglaBx0Bj4-0" value="Use default slave to grant signals in W Arbiter" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;shadow=1;" vertex="1" parent="KynZhwwtDon0E9S47-Nx-1">
+          <mxGeometry x="1910" y="2270" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
