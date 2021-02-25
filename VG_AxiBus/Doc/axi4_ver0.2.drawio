@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T08:12:23.341Z" agent="5.0 (Windows)" etag="ljA5hzZXe7FkeroPoK40" version="14.4.2" type="github" pages="14">
+<mxfile host="app.diagrams.net" modified="2021-02-25T08:23:32.834Z" agent="5.0 (Windows)" etag="AtFAo5O--frOnaj0MUhS" version="14.4.2" type="github" pages="14">
   <diagram id="0ciuMCJ45pLDEvmCelUE" name="Connection">
     <mxGraphModel dx="2089" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3266,7 +3266,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="hSwwT4Le0d6UIA7Lk16Q" name="AW Arbiter">
-    <mxGraphModel dx="2930" dy="1428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2290" dy="1053" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="Y4BL_L1ir_AxGmQeKUiQ-0" />
         <mxCell id="Y4BL_L1ir_AxGmQeKUiQ-1" parent="Y4BL_L1ir_AxGmQeKUiQ-0" />
@@ -3958,12 +3958,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="520" y="1910" as="sourcePoint" />
             <mxPoint x="670" y="1910" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8sxa9gXz-7T2rwpLrOHv-180" value="" style="endArrow=classic;html=1;" parent="Y4BL_L1ir_AxGmQeKUiQ-1" target="8sxa9gXz-7T2rwpLrOHv-46" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="340" y="1500" as="sourcePoint" />
-            <mxPoint x="390" y="1450" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="8sxa9gXz-7T2rwpLrOHv-183" value="" style="endArrow=classic;html=1;" parent="Y4BL_L1ir_AxGmQeKUiQ-1" edge="1">
