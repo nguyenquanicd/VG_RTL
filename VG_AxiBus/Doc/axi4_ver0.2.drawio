@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-02-25T01:33:45.133Z" agent="5.0 (Windows)" etag="FyyCVMTl78rEynbc7iI9" version="14.4.2" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-02-25T01:36:00.444Z" agent="5.0 (Windows)" etag="pjmIVVhxWmwuzDSyuYjS" version="14.4.2" type="github" pages="6">
   <diagram id="0ciuMCJ45pLDEvmCelUE" name="Connection">
     <mxGraphModel dx="2089" dy="857" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2854,7 +2854,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="0v6oL05TbyyS8K3XgRlR" name="AWSI">
-    <mxGraphModel dx="-106" dy="-1848" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="225" dy="-1624" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="KLb60rBxiDH59YCHkQn5-0" />
         <mxCell id="KLb60rBxiDH59YCHkQn5-1" parent="KLb60rBxiDH59YCHkQn5-0" />
@@ -3240,6 +3240,21 @@
         </mxCell>
         <mxCell id="n3jRCFmfRPLu9KdivT12-1" value="&lt;h1&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;SI side&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;/h1&gt;&lt;p&gt;&lt;font face=&quot;Times New Roman&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
           <mxGeometry x="859.13" y="2370" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="VKrkHru2Wd-NF6_cbdE8-0" value="" style="rounded=0;whiteSpace=wrap;html=1;shadow=0;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
+          <mxGeometry x="1600" y="2440" width="280" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="VKrkHru2Wd-NF6_cbdE8-1" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;AW Decoder&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
+          <mxGeometry x="1654" y="2490" width="172.5" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="VKrkHru2Wd-NF6_cbdE8-2" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;AW Ordering&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
+          <mxGeometry x="1610" y="2680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VKrkHru2Wd-NF6_cbdE8-3" value="&lt;font face=&quot;Times New Roman&quot;&gt;&lt;b&gt;AW Queue&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
+          <mxGeometry x="1750" y="2680" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="VKrkHru2Wd-NF6_cbdE8-5" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;AWSI&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="KLb60rBxiDH59YCHkQn5-1">
+          <mxGeometry x="1620" y="2450" width="40" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
